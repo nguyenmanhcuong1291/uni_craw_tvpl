@@ -1,0 +1,582 @@
+{"stt": 913084, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 918547, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 919507, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 922204, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 922410, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 922718, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 922897, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 925963, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 928616, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 930396, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 930579, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 931038, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002630BB02B70>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 945126, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 945514, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 946447, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 946620, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 948400, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 949148, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 949602, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 955777, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 955994, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 957005, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 957404, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 957848, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 958122, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 962804, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 964373, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 964543, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 966221, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 966622, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 966983, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 967890, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 968735, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 968810, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 969533, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 970169, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 970333, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 971774, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 971969, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 972641, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 973148, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 973472, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 976298, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976491, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 976647, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976649, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976650, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976665, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976683, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976687, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976695, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976734, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976740, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976742, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976744, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976746, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976752, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976766, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976770, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976773, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976774, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976789, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976805, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976813, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976819, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976833, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976835, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976844, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976867, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976934, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976943, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976945, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976949, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976959, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976964, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976967, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976972, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976983, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976990, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976991, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976992, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 976996, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977000, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977002, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977003, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977004, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977011, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977030, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977032, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977033, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977035, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977040, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977041, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977044, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977059, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977072, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977078, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977086, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977088, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977099, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977100, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977107, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977110, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977114, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977117, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977132, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977133, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977140, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977152, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977173, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977175, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977181, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977185, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977187, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977188, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977191, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977194, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977197, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977203, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977205, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977217, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 977261, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977263, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977264, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977278, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977279, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977280, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977281, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977282, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977283, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977284, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977291, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977296, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977297, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977300, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977302, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977306, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977313, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 977320, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977323, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977325, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977326, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977327, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977335, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977336, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977339, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977340, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977342, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977354, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977356, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977360, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977361, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977365, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977368, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977385, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977399, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977406, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977414, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977415, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977423, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977430, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977433, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977436, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977437, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977441, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977475, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977481, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977482, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977483, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977494, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977501, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977508, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977522, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977544, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977548, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977550, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977553, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977558, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977566, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977579, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977582, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977590, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977591, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977592, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977596, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977600, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977601, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977604, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977606, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977612, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977624, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977626, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977628, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977635, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977637, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977639, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977641, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977646, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977684, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977685, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977687, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977691, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977692, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977696, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977701, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977702, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977704, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977705, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977706, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977709, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977710, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977719, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977720, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977725, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977743, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977757, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977758, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977759, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977762, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977771, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977777, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977791, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977803, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977805, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977808, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977809, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977811, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977837, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977841, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977844, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977848, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977863, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977867, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977869, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977874, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977882, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977895, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977898, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977909, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977910, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977913, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977927, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977933, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977936, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977937, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977942, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977952, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977953, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977964, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977965, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977978, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977979, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977983, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977986, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977987, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 977989, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978000, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978008, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978010, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978012, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978017, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978026, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978044, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978046, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978048, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978049, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978053, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978054, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978058, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978065, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978066, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978069, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978070, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978073, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978077, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978088, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978091, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978118, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978129, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978130, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978145, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978147, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978173, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978174, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978193, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978210, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978215, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978222, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978226, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978232, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978236, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978266, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978274, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978275, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978281, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978289, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978292, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978295, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978300, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978302, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978303, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978305, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978306, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978319, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978326, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978343, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978345, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978348, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978349, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978351, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978354, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978394, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978414, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978416, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978419, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978420, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978421, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978423, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978430, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978434, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978439, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978455, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978460, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978465, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978466, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978472, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978475, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978493, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978494, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978500, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978503, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978509, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978515, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978535, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978540, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978544, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978550, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978599, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978604, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978620, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978625, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978626, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978635, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978649, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978661, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978662, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978722, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978725, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978751, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978754, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978756, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978784, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978791, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978807, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978811, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978819, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978831, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978833, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978841, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978847, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978856, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978879, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978882, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978885, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978899, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978907, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978912, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978920, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978925, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978928, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978943, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978976, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 978995, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979003, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979012, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979028, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979039, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979047, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979062, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979069, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979071, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979087, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979135, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979142, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979168, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979177, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979225, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979365, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979537, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 979542, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 980013, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 980019, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 980125, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 981058, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 984151, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 985321, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 985502, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 985621, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 985636, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 985663, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 985670, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 985684, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 986089, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 986103, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 986465, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 987173, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 987359, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 987449, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 987661, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988041, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988047, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988218, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988237, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988301, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988417, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988626, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 988796, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988918, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988937, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 988960, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989134, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989190, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 989207, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989230, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989355, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989465, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989492, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 989556, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989626, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989631, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989700, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 989730, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989767, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989802, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989817, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 989819, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 989865, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989871, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989922, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989926, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 989927, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 989954, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989956, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989962, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 989973, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990004, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990057, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990129, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990144, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990189, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990191, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990202, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990211, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990237, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990295, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990296, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990333, "error": "('Connection broken: IncompleteRead(940 bytes read, 3538 more expected)', IncompleteRead(940 bytes read, 3538 more expected))"}
+{"stt": 990345, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990353, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990358, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990370, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990375, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990379, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990391, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990392, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990393, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990396, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990410, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990419, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990421, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990441, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990448, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990474, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990478, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990481, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990505, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990517, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990518, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990519, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990527, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990540, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990557, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990560, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990584, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990589, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990601, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990617, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 990619, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990621, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990627, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990632, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990640, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990651, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990661, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990689, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990695, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990697, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990698, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990699, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990701, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990709, "error": "('Connection broken: IncompleteRead(8014 bytes read, 2202 more expected)', IncompleteRead(8014 bytes read, 2202 more expected))"}
+{"stt": 990711, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990719, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990720, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990721, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990729, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990731, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990732, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990740, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990741, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990750, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990751, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990756, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990757, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990760, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990762, "error": "('Connection broken: IncompleteRead(2340 bytes read, 1884 more expected)', IncompleteRead(2340 bytes read, 1884 more expected))"}
+{"stt": 990765, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990767, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990772, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990778, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990782, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990790, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990799, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 990838, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990856, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990871, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990873, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990879, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990880, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990882, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990888, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990893, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990913, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990918, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990922, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990925, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990926, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990932, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990937, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990939, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990949, "error": "('Connection broken: IncompleteRead(5140 bytes read, 451 more expected)', IncompleteRead(5140 bytes read, 451 more expected))"}
+{"stt": 990952, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 990960, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 990966, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 990991, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991023, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991033, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 991081, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 991114, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 991152, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 991205, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 991216, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991332, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991335, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991410, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991435, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991451, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B9942D7A40>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}
+{"stt": 991568, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991616, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991651, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991655, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 991731, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 991774, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 991803, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 991837, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 992047, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 992066, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 992105, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 992115, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 992121, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 992187, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 992250, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 992413, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 992464, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 992631, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 992873, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 993967, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 994272, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 995664, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 996368, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 997115, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 999327, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B9A8371490>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}

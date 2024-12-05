@@ -1,0 +1,66 @@
+{"stt": 307493, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000262A91E6150>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 311161, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000262C0DE2300>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 316207, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000262E78C2120>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 317223, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 317570, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000262E327DB50>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 318680, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 319975, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 324518, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 325769, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 325902, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 328580, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 329226, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 329809, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 330094, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 333887, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 342997, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002637821BBC0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 343473, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002636D9847A0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 345814, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 346383, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 348320, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 348777, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 349081, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 349238, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 349500, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 349525, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 350194, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 350504, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 357342, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000028D49E3B7A0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}
+{"stt": 363137, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 364385, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 364390, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 364964, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 365343, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 365750, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 367238, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000028DB78AD8B0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}
+{"stt": 368204, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 368326, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 368675, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 370560, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 370972, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 372581, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 374682, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 376238, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 377234, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 378066, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 378445, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 378538, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 379391, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000028E012DADE0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}
+{"stt": 379602, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 380038, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 380367, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 380930, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 381379, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000028DF16B50A0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}
+{"stt": 381680, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 381756, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 382174, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 383120, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 384586, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 385733, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 387023, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 387296, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 387617, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B94E958BF0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}
+{"stt": 387622, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 388467, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 388550, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 395107, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B97CABD9D0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}

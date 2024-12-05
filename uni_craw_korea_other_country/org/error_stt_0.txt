@@ -1,0 +1,257 @@
+2634
+2655
+{"stt": 14944, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 19592, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 21605, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 22160, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 22969, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 23335, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 23470, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 23847, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 24642, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 24827, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 27250, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 34071, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=None)"}
+{"stt": 40297, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000263914EC0E0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 41109, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002639E2135C0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=None)'))"}
+{"stt": 41882, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 42326, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 42478, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 43381, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 43418, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 44189, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 44198, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 44201, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 44253, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 44330, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 44393, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 44439, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 45007, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 45044, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 45408, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 45626, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 45641, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 46895, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 57044, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 57423, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 57647, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 58401, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 59107, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 59476, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 60043, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 61937, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 65532, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 65971, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 66641, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 68269, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 69882, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 70460, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 71887, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 72024, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 72969, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 73256, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 75787, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 75982, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 76714, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 76868, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 77013, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 77140, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 77201, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 77766, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 79087, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B94421FE00>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}
+{"stt": 79116, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 79406, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 79987, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 80632, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 82322, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 82487, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 90101, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Max retries exceeded with url: /clip/prlstclsfsrch/retrievePrlstClsfCaseDtl.do (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B90E7E93A0>, 'Connection to unipass.customs.go.kr timed out. (connect timeout=60)'))"}
+{"stt": 91814, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 91833, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 91864, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 91902, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 92112, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 92581, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 92654, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 93315, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 93367, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 93991, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 94425, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 94428, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 94510, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 94618, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 94839, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 94867, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 94949, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 94990, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95107, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95126, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95225, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95386, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95414, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95508, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95562, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95665, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95675, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95935, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 95952, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 95985, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96156, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96159, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96165, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96230, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96234, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96262, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96286, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 96302, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 96308, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96322, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96372, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96408, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96415, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96418, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96480, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96502, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96531, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96536, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96548, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96564, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 96630, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96678, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96698, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 96699, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96704, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 96727, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96772, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96787, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 96800, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96807, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96890, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 96916, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96932, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 96978, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 96985, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97008, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97012, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97022, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97029, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97053, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97059, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97065, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97074, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97076, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97079, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97090, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97091, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97110, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97128, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97129, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97135, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97138, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97141, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97166, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97173, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97182, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97191, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97194, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97201, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97221, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97222, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97261, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97271, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97278, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97281, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97303, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97307, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97315, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97344, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97353, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97360, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97377, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97417, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97433, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97434, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97436, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97441, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97444, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97445, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 97464, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97468, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97469, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97471, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 97473, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97476, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97478, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97479, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 97485, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97488, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97489, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97490, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97503, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97509, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97512, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97518, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97521, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97537, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97542, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97544, "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"stt": 97546, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97556, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97560, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97565, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97578, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97598, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97606, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97610, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97613, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97614, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97636, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97648, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97651, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97658, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97660, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97667, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97670, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97672, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97673, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97689, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97690, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97692, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97707, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97716, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97719, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97726, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97727, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97732, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97735, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97751, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97756, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97771, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97797, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97819, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97894, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 97907, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97949, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97961, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 97984, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98008, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98057, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98072, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98073, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98084, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98270, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 98326, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 98332, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 98348, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98355, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98583, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98591, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98595, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 98673, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out."}
+{"stt": 98886, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 98899, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 99180, "error": "HTTPSConnectionPool(host='unipass.customs.go.kr', port=443): Read timed out. (read timeout=60)"}
+{"stt": 99503, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 99541, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 99563, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"stt": 99685, "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
