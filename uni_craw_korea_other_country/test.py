@@ -160,8 +160,8 @@ df_chunks = [chunk.reset_index(drop=True) for chunk in [df[i:i + chunk_size] for
 saved_states = [load_state(i) for i in range(len(df_chunks))]
 
 # Sử dụng multithreading để xử lý từng chunk
-all_results = []
-all_error_stts = []
+# all_results = []
+# all_error_stts = []
 states = {}
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=len(df_chunks)) as executor:
@@ -173,8 +173,8 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=len(df_chunks)) as execut
         thread_index = futures[future]
         try:
             results, current_index, error_stts = future.result()
-            all_results.extend(results)
-            all_error_stts.extend(error_stts)
+            # all_results.extend(results)
+            # all_error_stts.extend(error_stts)
             states[thread_index] = {"start_index": current_index}
         except Exception as e:
             print(f"Thread {thread_index} encountered an error: {e}")
