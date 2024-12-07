@@ -1,32 +1,32 @@
-1100103
-1100116
-1100153
-1100212
-1100299
-1100310
-1100318
-1100336
-1100393
-1100483
-1100547
-1100558
-1100694
-1100697
-1100701
-1100756
-1100816
-1100831
-1100849
-1100885
-1101065
-1101070
-1101096
-1101098
-1101106
-1101110
-1101131
-1101168
-1101241
+{"stt": 1100103, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100116, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100153, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100212, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100299, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100310, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100318, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100336, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100393, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100483, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100547, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100558, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100694, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100697, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100701, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100756, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100816, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100831, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100849, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1100885, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101065, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101070, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101096, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101098, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101106, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101110, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101131, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101168, "error": "'NoneType' object has no attribute 'findAll'"}
+{"stt": 1101241, "error": "'NoneType' object has no attribute 'findAll'"}
 {"stt": 1101302, "error": "'NoneType' object has no attribute 'findAll'"}
 {"stt": 1101392, "error": "'NoneType' object has no attribute 'findAll'"}
 {"stt": 1101405, "error": "'NoneType' object has no attribute 'findAll'"}
