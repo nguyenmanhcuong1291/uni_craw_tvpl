@@ -628,9 +628,9 @@ def import_co_details_to_db(company_name,username,password):
 
     # Tạo database nếu chưa tồn tại
     try:
-        cursor.execute("IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'COData_2') "
+        cursor.execute("IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'COData') "
                     "BEGIN "
-                    "CREATE DATABASE COData_2; "
+                    "CREATE DATABASE COData; "
                     "END")
         connection.commit()  # Commit lệnh CREATE DATABASE
     except Exception as e:
@@ -640,7 +640,7 @@ def import_co_details_to_db(company_name,username,password):
     connection.close()
 
     # Kết nối đến database mới
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData_2;UID={username};PWD={password}')
+    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={username};PWD={password}')
     cursor = connection.cursor()
 
     # Tạo bảng C/O
@@ -690,12 +690,12 @@ def import_co_details_to_db(company_name,username,password):
         BEGIN
             CREATE TABLE from_to (
                 doc_id NVARCHAR(50),
-                name_export NVARCHAR(100),
-                address_export NVARCHAR(200),
-                address_export2 NVARCHAR(200),
-                name_import NVARCHAR(100),
-                address_import NVARCHAR(200),
-                address_import2 NVARCHAR(200),
+                name_export NVARCHAR(300),
+                address_export NVARCHAR(300),
+                address_export2 NVARCHAR(300),
+                name_import NVARCHAR(300),
+                address_import NVARCHAR(300),
+                address_import2 NVARCHAR(300),
                 CONSTRAINT FK_from_to_CO FOREIGN KEY (doc_id) REFERENCES CO(doc_id)
             );
         END
@@ -725,8 +725,8 @@ def import_co_details_to_db(company_name,username,password):
                 item_num INT,
                 item_number INT,
                 item_id NVARCHAR(50),
-                Marks_and_numbers_on_packages NVARCHAR(100),
-                Goods_description NVARCHAR(200),
+                Marks_and_numbers_on_packages NVARCHAR(MAX),
+                Goods_description NVARCHAR(MAX),
                 Origin_criterion NVARCHAR(50),
                 FOB_value NVARCHAR(100),
                 Invoice_number_and_date NVARCHAR(100),
@@ -784,7 +784,7 @@ def import_co_details_to_db(company_name,username,password):
     print("Cơ sở dữ liệu và các bảng đã được tạo thành công.")
 
     # Kết nối đến SQL Server
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData_2;UID={username};PWD={password}')
+    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={username};PWD={password}')
     cursor = connection.cursor()
 
     # Chèn dữ liệu vào bảng CO
@@ -1280,9 +1280,9 @@ def import_invoice_details_to_db():
 
     # Tạo database nếu chưa tồn tại
     try:
-        cursor.execute("IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'COData_2') "
+        cursor.execute("IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'COData') "
                     "BEGIN "
-                    "CREATE DATABASE COData_2; "
+                    "CREATE DATABASE COData; "
                     "END")
         connection.commit()  # Commit lệnh CREATE DATABASE
     except Exception as e:
@@ -1292,7 +1292,7 @@ def import_invoice_details_to_db():
     connection.close()
 
     # Kết nối đến database mới
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData_2;UID={dbusername};PWD={dbpassword}')
+    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={dbusername};PWD={dbpassword}')
     cursor = connection.cursor()
 
     # Tạo bảng C/O
@@ -1341,7 +1341,7 @@ def import_invoice_details_to_db():
     print("Cơ sở dữ liệu và các bảng đã được tạo thành công.")
 
     # Kết nối đến SQL Server
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData_2;UID={dbusername};PWD={dbpassword}')
+    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={dbusername};PWD={dbpassword}')
     cursor = connection.cursor()
 
     # Chèn dữ liệu vào bảng invoice
@@ -1381,7 +1381,7 @@ dbusername = 'sa'
 dbpassword = '1234QWER@'
 
 # %%
-for account in account_list:
+for account in account_list[3:]:
     print("Account: ",account['username'],account['password'])
     username = account['username']
     password = account['password']
