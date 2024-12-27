@@ -334,7 +334,7 @@ def get_id_details(cookie,doc_id):
     }
 
     # Gửi yêu cầu GET
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers,timeout= 600)
 
     # Kiểm tra phản hồi
     if response.status_code == 200:
@@ -349,192 +349,194 @@ def get_id_details(cookie,doc_id):
     if response.text:
         soup = BeautifulSoup(response.text,"html.parser")
 
-    info_soup = soup.find('div',id = "ctl00_cplhContainer_rpvInfo") 
-    all_div = info_soup.find_all('div', class_=re.compile(r"^row"))
-    trang_thai_soup = all_div[0]
-    try :
-        tths = part_text(trang_thai_soup.find_all('span'),1,3)
-        id_info["Trạng thái hồ sơ"] = tths
-    except:
-        print("not found Trạng thái hồ sơ")
-    thong_tin_chung_soup = all_div[1]
     try:
-        tax_code = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblCompanyTaxCode").get_text().strip()
-        id_info["Tax code"] = tax_code
-    except:
-        print("Not found tax_code")
-    try:
-        issuing_authority  = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblDepartment").get_text().strip()
-        id_info["Issuing Authority"] = issuing_authority
-    except:
-        print("Not found Issuing Authority")
-    try:
-        form  = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblFormCO").get_text().strip()
-        id_info["Form"] = form
-    except:
-        print("Not found form")
-    try:
-        ImportingCountry   = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblMarket").get_text().strip()
-        id_info["Importing_Country"] = ImportingCountry
-    except:
-        print("Not found Importing Country")
-    try:
-        Reference_no    = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblCertificateNumber").get_text().strip()
-        id_info["Reference No."] = Reference_no
-    except:
-        print("Not found Reference No.")
-    try:
-        Issuance_date = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblCertificateDate").get_text().strip()
-        id_info["Issuance date"] = Issuance_date
-    except:
-        print("Not found Issuance date ")
-    try:
-        Certified_date  = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblReviewDateApprove").get_text().strip()
-        id_info["Certified date"] = Certified_date
-    except:
-        print("Not found Certified date ")
-        
-    try:
-        invoiceItems  = thong_tin_chung_soup.find('div',  id = "ctl00_cplhContainer_pnlCustomsNumber").find_all('div',class_ = "invoiceItem")
-    except:
-        invoiceItems = []
-        
-    ExportDeclaration = []
-    item_num = 0
-    for item in invoiceItems:
-        invoiceitem_info = {}
-        item_num += 1
-        invoiceitem_info["item_num"] = item_num
-        
+        info_soup = soup.find('div',id = "ctl00_cplhContainer_rpvInfo") 
+        all_div = info_soup.find_all('div', class_=re.compile(r"^row"))
+        trang_thai_soup = all_div[0]
+        try :
+            tths = part_text(trang_thai_soup.find_all('span'),1,3)
+            id_info["Trạng thái hồ sơ"] = tths
+        except:
+            print("not found Trạng thái hồ sơ")
+        thong_tin_chung_soup = all_div[1]
+        try:
+            tax_code = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblCompanyTaxCode").get_text().strip()
+            id_info["Tax code"] = tax_code
+        except:
+            print("Not found tax_code")
+        try:
+            issuing_authority  = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblDepartment").get_text().strip()
+            id_info["Issuing Authority"] = issuing_authority
+        except:
+            print("Not found Issuing Authority")
+        try:
+            form  = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblFormCO").get_text().strip()
+            id_info["Form"] = form
+        except:
+            print("Not found form")
+        try:
+            ImportingCountry   = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblMarket").get_text().strip()
+            id_info["Importing_Country"] = ImportingCountry
+        except:
+            print("Not found Importing Country")
+        try:
+            Reference_no    = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblCertificateNumber").get_text().strip()
+            id_info["Reference No."] = Reference_no
+        except:
+            print("Not found Reference No.")
+        try:
+            Issuance_date = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblCertificateDate").get_text().strip()
+            id_info["Issuance date"] = Issuance_date
+        except:
+            print("Not found Issuance date ")
+        try:
+            Certified_date  = thong_tin_chung_soup.find("span", id = "ctl00_cplhContainer_lblReviewDateApprove").get_text().strip()
+            id_info["Certified date"] = Certified_date
+        except:
+            print("Not found Certified date ")
+            
+        try:
+            invoiceItems  = thong_tin_chung_soup.find('div',  id = "ctl00_cplhContainer_pnlCustomsNumber").find_all('div',class_ = "invoiceItem")
+        except:
+            invoiceItems = []
+            
+        ExportDeclaration = []
+        item_num = 0
+        for item in invoiceItems:
+            invoiceitem_info = {}
+            item_num += 1
+            invoiceitem_info["item_num"] = item_num
+            
+            try: 
+                invoice_number = item.find("span", id=lambda x: x and x.startswith("ctl00_cplhContainer_pnlCustomsNumber") and "lblInvoiceNumber" in x)
+                invoiceitem_info['invoice_number'] = invoice_number.get_text() 
+            except:
+                invoiceitem_info['invoice_number'] = ""
+                
+            try:    
+                invoice_date = item.find("span", id=lambda x: x and x.startswith("ctl00_cplhContainer_pnlCustomsNumber") and x.endswith("lblInvoiceDate"))
+                invoiceitem_info['invoice_date'] = invoice_date.get_text() 
+            except:
+                invoiceitem_info['invoice_date'] = ""
+                
+            try: 
+                invoice_link = item.find("a", id=lambda x: x and x.startswith("ctl00_cplhContainer_pnlCustomsNumber") and "hplInvoiceLink" in x)
+                invoiceitem_info['invoice_link'] = invoice_link.get("href")
+            except:
+                invoiceitem_info['invoice_link'] = ""
+                
+            ExportDeclaration.append(invoiceitem_info)
+
+        id_info["ExportDeclaration"] = ExportDeclaration
+        from_to_soup = all_div[2]
+        titles = from_to_soup.find_all('span', class_='titles')
+        for title in titles:
+            key = title.get_text(strip=True)
+            div_content = title.find_parent('div').find_next_sibling('div')
+            values = [span.get_text(strip=True) for span in div_content.find_all('span')]
+            id_info[key] = values
+
+        transport_info_soup = all_div[3]
+        try:
+            transport_type  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblTransportMethod").get_text().strip()
+            id_info["transport_type"] = transport_type
+        except:
+            print("Not found transport_type")
+        try:
+            departure_date  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblTransportDate").get_text().strip()
+            id_info["Departure Date"] = departure_date
+        except:
+            print("Not found Departure Date")
+        try:
+            vessel_aircraft_name  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblShipName").get_text().strip()
+            id_info["vessel_aircraft_name"] = vessel_aircraft_name
+        except:
+            print("Not found Vessel’s Name/Aircraft")
+        try:
+            port_of_loading  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblSenderPlace").get_text().strip()
+            id_info["port_of_loading"] = port_of_loading
+        except:
+            print("Not found port_of_loading")
+        try:
+            port_of_discharge  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblReceiverPlace").get_text().strip()
+            id_info["port_of_discharge"] = port_of_discharge
+        except:
+            print("Not found port_of_discharge")
+        try:
+            transport_doc  = transport_info_soup.find("a", id = "ctl00_cplhContainer_hplTransportFileLink").get("href")
+            id_info["transport_doc"] = transport_doc
+        except:
+            print("Not found transport_doc")
+        try:
+            goods_info_soup = all_div[4].find('table',class_ = 'rgMasterTable')
+            # Lấy tiêu đề
+            goods_info_header = [th.get_text(separator=" ", strip=True) for th in goods_info_soup.find('thead').find_all('th', class_ = "rgHeader")]
+
+            # Lấy dữ liệu từng dòng trong bảng
+            goods_info_rows = []
+            for tr in goods_info_soup.find('tbody').find_all('tr'):
+                row = [td.get_text(separator=" ", strip=True) for td in tr.find_all('td')]
+                goods_info_rows.append(row)
+        except:
+            print("Not found goods_info")
+        goods_info = [goods_info_header] + goods_info_rows
+        id_info["goods_info"] = goods_info
+        invoice_info_soup = all_div[5]
+        try:
+            total_value  = invoice_info_soup.find("span", id = "ctl00_cplhContainer_lblTotalItemFobValueTabCO").get_text().strip()
+            id_info["total_value"] = total_value
+        except:
+            print("Not found total_value")
+        try:
+            total_quantity  = invoice_info_soup.find("span", id = "ctl00_cplhContainer_lblTotalItemQuantityTabCO").get_text().strip()
+            id_info["total_quantity"] = total_quantity
+        except:
+            print("Not found total_quantity")
+        try:
+            total_weight  = invoice_info_soup.find("span", id = "ctl00_cplhContainer_lblTotalItemGrossWeightTabCO").get_text().strip()
+            id_info["total_weight"] = total_weight
+        except:
+            print("Not found total_weight")
+        try:
+            show_invoi_checkbox = invoice_info_soup.find("input",  id = "ctl00_cplhContainer_ckbShowOnCO")
+            checked = show_invoi_checkbox.has_attr("checked")
+            id_info["is_show_fob_value"] = checked
+        except:
+            print("Not found show_invoi_checkbox")
+        try:
+            origindoc_soup = invoice_info_soup.find("div",id = "ctl00_cplhContainer_pnlFileCoriginalContent").find_all("a")
+            origindoc = [a.get("href") for a in origindoc_soup]
+            id_info["origindoc"] = origindoc
+        except:
+            print("Not found origindoc")
+        try:
+            invoice_attached_soup = invoice_info_soup.find("div",id = "ctl00_cplhContainer_pnlInvoice").find_all("a")
+            invoice_attached = [a.get("href") for a in invoice_attached_soup]
+            id_info["invoice_attached"] = invoice_attached
+        except:
+            print("Not found invoice_attached")
+        other_info_soup = all_div[6]
+        try:
+            declaration_place = other_info_soup.find("span",id = "ctl00_cplhContainer_lblCountryCode").get_text().strip()
+            id_info["declaration_place"] = declaration_place
+        except:
+            print("Not found declaration_place")
         try: 
-            invoice_number = item.find("span", id=lambda x: x and x.startswith("ctl00_cplhContainer_pnlCustomsNumber") and "lblInvoiceNumber" in x)
-            invoiceitem_info['invoice_number'] = invoice_number.get_text() 
+            spans = other_info_soup.find('table', id = "ctl00_cplhContainer_pnlCertificateOptions_radGridOptions_ctl00").find_all("span",class_ = "chkOption")
+            remarks_info = []
+
+            for span in spans:
+                label = span.find("label").text.strip()  # Lấy nội dung của thẻ label
+                input_tag = span.find("input")          # Lấy thẻ input bên trong
+                checked = input_tag.has_attr("checked") # Kiểm tra trạng thái 'checked'
+                remarks_info.append({"label": label, "checked": checked})
+            id_info["remarks_info"] = remarks_info
         except:
-            invoiceitem_info['invoice_number'] = ""
-            
-        try:    
-            invoice_date = item.find("span", id=lambda x: x and x.startswith("ctl00_cplhContainer_pnlCustomsNumber") and x.endswith("lblInvoiceDate"))
-            invoiceitem_info['invoice_date'] = invoice_date.get_text() 
-        except:
-            invoiceitem_info['invoice_date'] = ""
-            
-        try: 
-            invoice_link = item.find("a", id=lambda x: x and x.startswith("ctl00_cplhContainer_pnlCustomsNumber") and "hplInvoiceLink" in x)
-            invoiceitem_info['invoice_link'] = invoice_link.get("href")
-        except:
-            invoiceitem_info['invoice_link'] = ""
-            
-        ExportDeclaration.append(invoiceitem_info)
-
-    id_info["ExportDeclaration"] = ExportDeclaration
-    from_to_soup = all_div[2]
-    titles = from_to_soup.find_all('span', class_='titles')
-    for title in titles:
-        key = title.get_text(strip=True)
-        div_content = title.find_parent('div').find_next_sibling('div')
-        values = [span.get_text(strip=True) for span in div_content.find_all('span')]
-        id_info[key] = values
-
-    transport_info_soup = all_div[3]
-    try:
-        transport_type  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblTransportMethod").get_text().strip()
-        id_info["transport_type"] = transport_type
+            print("Not found remarks_info")
+        print(id_info)
+        return id_info
     except:
-        print("Not found transport_type")
-    try:
-        departure_date  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblTransportDate").get_text().strip()
-        id_info["Departure Date"] = departure_date
-    except:
-        print("Not found Departure Date")
-    try:
-        vessel_aircraft_name  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblShipName").get_text().strip()
-        id_info["vessel_aircraft_name"] = vessel_aircraft_name
-    except:
-        print("Not found Vessel’s Name/Aircraft")
-    try:
-        port_of_loading  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblSenderPlace").get_text().strip()
-        id_info["port_of_loading"] = port_of_loading
-    except:
-        print("Not found port_of_loading")
-    try:
-        port_of_discharge  = transport_info_soup.find("span", id = "ctl00_cplhContainer_lblReceiverPlace").get_text().strip()
-        id_info["port_of_discharge"] = port_of_discharge
-    except:
-        print("Not found port_of_discharge")
-    try:
-        transport_doc  = transport_info_soup.find("a", id = "ctl00_cplhContainer_hplTransportFileLink").get("href")
-        id_info["transport_doc"] = transport_doc
-    except:
-        print("Not found transport_doc")
-    try:
-        goods_info_soup = all_div[4].find('table',class_ = 'rgMasterTable')
-        # Lấy tiêu đề
-        goods_info_header = [th.get_text(separator=" ", strip=True) for th in goods_info_soup.find('thead').find_all('th', class_ = "rgHeader")]
-
-        # Lấy dữ liệu từng dòng trong bảng
-        goods_info_rows = []
-        for tr in goods_info_soup.find('tbody').find_all('tr'):
-            row = [td.get_text(separator=" ", strip=True) for td in tr.find_all('td')]
-            goods_info_rows.append(row)
-    except:
-        print("Not found goods_info")
-    goods_info = [goods_info_header] + goods_info_rows
-    id_info["goods_info"] = goods_info
-    invoice_info_soup = all_div[5]
-    try:
-        total_value  = invoice_info_soup.find("span", id = "ctl00_cplhContainer_lblTotalItemFobValueTabCO").get_text().strip()
-        id_info["total_value"] = total_value
-    except:
-        print("Not found total_value")
-    try:
-        total_quantity  = invoice_info_soup.find("span", id = "ctl00_cplhContainer_lblTotalItemQuantityTabCO").get_text().strip()
-        id_info["total_quantity"] = total_quantity
-    except:
-        print("Not found total_quantity")
-    try:
-        total_weight  = invoice_info_soup.find("span", id = "ctl00_cplhContainer_lblTotalItemGrossWeightTabCO").get_text().strip()
-        id_info["total_weight"] = total_weight
-    except:
-        print("Not found total_weight")
-    try:
-        show_invoi_checkbox = invoice_info_soup.find("input",  id = "ctl00_cplhContainer_ckbShowOnCO")
-        checked = show_invoi_checkbox.has_attr("checked")
-        id_info["is_show_fob_value"] = checked
-    except:
-        print("Not found show_invoi_checkbox")
-    try:
-        origindoc_soup = invoice_info_soup.find("div",id = "ctl00_cplhContainer_pnlFileCoriginalContent").find_all("a")
-        origindoc = [a.get("href") for a in origindoc_soup]
-        id_info["origindoc"] = origindoc
-    except:
-        print("Not found origindoc")
-    try:
-        invoice_attached_soup = invoice_info_soup.find("div",id = "ctl00_cplhContainer_pnlInvoice").find_all("a")
-        invoice_attached = [a.get("href") for a in invoice_attached_soup]
-        id_info["invoice_attached"] = invoice_attached
-    except:
-        print("Not found invoice_attached")
-    other_info_soup = all_div[6]
-    try:
-        declaration_place = other_info_soup.find("span",id = "ctl00_cplhContainer_lblCountryCode").get_text().strip()
-        id_info["declaration_place"] = declaration_place
-    except:
-        print("Not found declaration_place")
-    try: 
-        spans = other_info_soup.find('table', id = "ctl00_cplhContainer_pnlCertificateOptions_radGridOptions_ctl00").find_all("span",class_ = "chkOption")
-        remarks_info = []
-
-        for span in spans:
-            label = span.find("label").text.strip()  # Lấy nội dung của thẻ label
-            input_tag = span.find("input")          # Lấy thẻ input bên trong
-            checked = input_tag.has_attr("checked") # Kiểm tra trạng thái 'checked'
-            remarks_info.append({"label": label, "checked": checked})
-        id_info["remarks_info"] = remarks_info
-    except:
-        print("Not found remarks_info")
-    print(id_info)
-    return id_info
-
+        print(doc_id, "Lỗi")
 # %%
 def run_get_id_details():
     ids = []
@@ -838,11 +840,13 @@ def import_co_details_to_db(company_name,username,password):
 
         # Chèn dữ liệu vào bảng Goods_info
         for idx, goods in enumerate(record['goods_info'][1:], 1):  # Bỏ qua dòng tiêu đề
-            cursor.execute("""
-                INSERT INTO Goods_info (doc_id, item_num, item_number, item_id, Marks_and_numbers_on_packages, Goods_description, Origin_criterion, FOB_value, Invoice_number_and_date)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """, record['doc_id'], idx, goods[0], goods[1], goods[2], goods[3], goods[4], goods[5], goods[6])
-
+            try:
+                cursor.execute("""
+                    INSERT INTO Goods_info (doc_id, item_num, item_number, item_id, Marks_and_numbers_on_packages, Goods_description, Origin_criterion, FOB_value, Invoice_number_and_date)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """, record['doc_id'], idx, goods[0], goods[1], goods[2], goods[3], goods[4], goods[5], goods[6])
+            except:
+                True
         # Chèn dữ liệu vào bảng Remarks_info, nếu tồn tại
         remarks_info = record.get('remarks_info', [])  # Nếu không có 'remarks_info', gán giá trị mặc định là list rỗng
         for remark in remarks_info:
@@ -918,7 +922,7 @@ def get_invoice_info(cookie,doc_id):
     }
 
     # Gửi yêu cầu GET
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers,timeout=600)
 
     # Kiểm tra phản hồi
     if response.status_code == 200:
@@ -933,106 +937,109 @@ def get_invoice_info(cookie,doc_id):
 
     if response.text:
         soup = BeautifulSoup(response.text,"html.parser")
-    info_soup = soup.find('div',id = "ctl00_cplhContainer_rpvRepresenter") 
-    audit_info_soup = soup.find('div',id = "ctl00_cplhContainer_pnlAuditTrail") 
-
-
-    try :
-        tt = info_soup.find('span',id = "ctl00_cplhContainer_lblStatus").get_text().strip()
-        invoice_info["status"] = tt
-    except:
-        print("not found status")
-    try :
-        ordercode = info_soup.find('span',id = "ctl00_cplhContainer_lblOrderCode").get_text().strip()
-        invoice_info["ordercode"] = ordercode
-    except:
-        print("not found ordercode")
-    try :
-        companyname = info_soup.find('span',id = "ctl00_cplhContainer_lblCompanyName").get_text().strip()
-        invoice_info["companyname"] = companyname
-    except:
-        print("not found companyname")
-    try :
-        companytaxcode = info_soup.find('span',id = "ctl00_cplhContainer_lblCompanyTaxcode").get_text().strip()
-        invoice_info["companytaxcode"] = companytaxcode
-    except:
-        print("not found companytaxcode")
-    try :
-        companyaddress = info_soup.find('span',id = "ctl00_cplhContainer_lblCompanyAddress").get_text().strip()
-        invoice_info["companyaddress"] = companyaddress
-    except:
-        print("not found companyaddress")
-    try :
-        companyemail = info_soup.find('span',id = "ctl00_cplhContainer_lblCompanyEmail").get_text().strip()
-        invoice_info["companyemail"] = companyemail
-    except:
-        print("not found companyemail")
-    try :
-        amount = info_soup.find('span',id = "ctl00_cplhContainer_lblAmount").get_text().strip()
-        invoice_info["amount"] = amount
-    except:
-        print("not found amount")
         
-    try:
-        co_table = info_soup.find('table',class_ = 'rgMasterTable')
-        # Lấy tiêu đề
-        co_table_header = [th.get_text(separator=" ", strip=True) for th in co_table.find('thead').find_all('th', class_ = "rgHeader")]
+    try:    
+        info_soup = soup.find('div',id = "ctl00_cplhContainer_rpvRepresenter") 
+        audit_info_soup = soup.find('div',id = "ctl00_cplhContainer_pnlAuditTrail") 
 
-        # Lấy dữ liệu từng dòng trong bảng
-        co_info_rows = []
-        for tr in co_table.find('tbody').find_all('tr'):
-            row = [td.get_text(separator=" ", strip=True) for td in tr.find_all('td')]
-            co_info_rows.append(row)
-    except:
-        print("Not found goods_info")
-    co_info = [co_table_header] + co_info_rows
-    invoice_info["co_info"] = co_info
-    
-    try :
-        invoice_code = info_soup.find('span',id = "ctl00_cplhContainer_lblInvoiceCode").get_text().strip()
-        invoice_info["invoice_code"] = invoice_code
-    except:
-        print("not found amoinvoice_codeunt")
-    try :
-        invoice_receip_no = info_soup.find('span',id = "ctl00_cplhContainer_lblInvoiceReceiptNumber").get_text().strip()
-        invoice_info["invoice_receip_no"] = invoice_receip_no
-    except:
-        print("not found invoice_receip_no")
-    try :
-        invoice_address_label = info_soup.find('span',id = "ctl00_cplhContainer_lblInvoiceAddressLabel")
-        
-        if invoice_address_label:
-            try :
-                a_element = invoice_address_label.find_next('a')  
-                invoice_address_label = a_element['href'].strip()  
-                # print(invoice_address_label)
-            except:
-                print("Thẻ <a> không tìm thấy hoặc không có thuộc tính href.") 
+
+        try :
+            tt = info_soup.find('span',id = "ctl00_cplhContainer_lblStatus").get_text().strip()
+            invoice_info["status"] = tt
+        except:
+            print("not found status")
+        try :
+            ordercode = info_soup.find('span',id = "ctl00_cplhContainer_lblOrderCode").get_text().strip()
+            invoice_info["ordercode"] = ordercode
+        except:
+            print("not found ordercode")
+        try :
+            companyname = info_soup.find('span',id = "ctl00_cplhContainer_lblCompanyName").get_text().strip()
+            invoice_info["companyname"] = companyname
+        except:
+            print("not found companyname")
+        try :
+            companytaxcode = info_soup.find('span',id = "ctl00_cplhContainer_lblCompanyTaxcode").get_text().strip()
+            invoice_info["companytaxcode"] = companytaxcode
+        except:
+            print("not found companytaxcode")
+        try :
+            companyaddress = info_soup.find('span',id = "ctl00_cplhContainer_lblCompanyAddress").get_text().strip()
+            invoice_info["companyaddress"] = companyaddress
+        except:
+            print("not found companyaddress")
+        try :
+            companyemail = info_soup.find('span',id = "ctl00_cplhContainer_lblCompanyEmail").get_text().strip()
+            invoice_info["companyemail"] = companyemail
+        except:
+            print("not found companyemail")
+        try :
+            amount = info_soup.find('span',id = "ctl00_cplhContainer_lblAmount").get_text().strip()
+            invoice_info["amount"] = amount
+        except:
+            print("not found amount")
             
-        invoice_info["invoice_address_label"] = invoice_address_label
-    except:
-        print("not found invoice_address_label")
-    try :
-        another_email = info_soup.find('span',id = "ctl00_cplhContainer_lblEmail01").get_text().strip()
-        invoice_info["another_email"] = another_email
-    except:
-        print("not found another_email")    
-        
-    try :
-        created_at = audit_info_soup.find('span',id = "ctl00_cplhContainer_AuditTrail1_lblCreatedAt").get_text().strip()
-        invoice_info["created_at"] = created_at
-    except:
-        print("not found created_at")   
-        
-    try :
-        last_modified_at = audit_info_soup.find('span',id = "ctl00_cplhContainer_AuditTrail1_lblLastModifiedAt").get_text().strip()
-        invoice_info["last_modified_at"] = last_modified_at
-    except:
-        print("not found last_modified_at")   
+        try:
+            co_table = info_soup.find('table',class_ = 'rgMasterTable')
+            # Lấy tiêu đề
+            co_table_header = [th.get_text(separator=" ", strip=True) for th in co_table.find('thead').find_all('th', class_ = "rgHeader")]
 
-    print(invoice_info)
-    return invoice_info
+            # Lấy dữ liệu từng dòng trong bảng
+            co_info_rows = []
+            for tr in co_table.find('tbody').find_all('tr'):
+                row = [td.get_text(separator=" ", strip=True) for td in tr.find_all('td')]
+                co_info_rows.append(row)
+        except:
+            print("Not found goods_info")
+        co_info = [co_table_header] + co_info_rows
+        invoice_info["co_info"] = co_info
+        
+        try :
+            invoice_code = info_soup.find('span',id = "ctl00_cplhContainer_lblInvoiceCode").get_text().strip()
+            invoice_info["invoice_code"] = invoice_code
+        except:
+            print("not found amoinvoice_codeunt")
+        try :
+            invoice_receip_no = info_soup.find('span',id = "ctl00_cplhContainer_lblInvoiceReceiptNumber").get_text().strip()
+            invoice_info["invoice_receip_no"] = invoice_receip_no
+        except:
+            print("not found invoice_receip_no")
+        try :
+            invoice_address_label = info_soup.find('span',id = "ctl00_cplhContainer_lblInvoiceAddressLabel")
+            
+            if invoice_address_label:
+                try :
+                    a_element = invoice_address_label.find_next('a')  
+                    invoice_address_label = a_element['href'].strip()  
+                    # print(invoice_address_label)
+                except:
+                    print("Thẻ <a> không tìm thấy hoặc không có thuộc tính href.") 
+                
+            invoice_info["invoice_address_label"] = invoice_address_label
+        except:
+            print("not found invoice_address_label")
+        try :
+            another_email = info_soup.find('span',id = "ctl00_cplhContainer_lblEmail01").get_text().strip()
+            invoice_info["another_email"] = another_email
+        except:
+            print("not found another_email")    
+            
+        try :
+            created_at = audit_info_soup.find('span',id = "ctl00_cplhContainer_AuditTrail1_lblCreatedAt").get_text().strip()
+            invoice_info["created_at"] = created_at
+        except:
+            print("not found created_at")   
+            
+        try :
+            last_modified_at = audit_info_soup.find('span',id = "ctl00_cplhContainer_AuditTrail1_lblLastModifiedAt").get_text().strip()
+            invoice_info["last_modified_at"] = last_modified_at
+        except:
+            print("not found last_modified_at")   
 
+        print(invoice_info)
+        return invoice_info
+    except:
+        True
 # %%
 def run_get_invoice_details():
     def request_first_page(fromdate,todate):
@@ -1381,7 +1388,7 @@ dbusername = 'sa'
 dbpassword = '1234QWER@'
 
 # %%
-for account in account_list[3:]:
+for account in account_list[5:]:
     print("Account: ",account['username'],account['password'])
     username = account['username']
     password = account['password']
