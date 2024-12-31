@@ -19,6 +19,9 @@ import pandas as pd
 import csv
 import ast
 import pyodbc
+import json
+import concurrent.futures
+
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
@@ -156,7 +159,7 @@ def get_cookie(user_name, password):
 
             # Kiểm tra đăng nhập thành công hay không
             if "Dashboard" in driver.page_source:
-                print("Đăng nhập thành công!")
+                print("Đăng nhập dichvucong.moit.gov.vn thành công!")
 
                 # Đăng nhập sang ecosys
                 next_button = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="ctl00_cplhContainer_grdViewDefault"]/tbody/tr[2]/td[4]/a')))
@@ -169,6 +172,7 @@ def get_cookie(user_name, password):
                 driver.quit()
                 if os.path.exists("captcha_image.png"):
                     os.remove("captcha_image.png")
+                print("Đăng nhập ecosys thành công!")    
                 return cookie
             else:
                 print("Đăng nhập thất bại. Thử lại...")
@@ -586,15 +590,126 @@ def run_get_id_details():
             
     with open("output_co_ids.txt", "r", encoding="utf-8") as file:
         data_list = [line.strip() for line in file]  # Loại bỏ khoảng trắng và ký tự xuống dòng
-    all_id_info = []
+
+    # Hàm lưu trạng thái
+    def save_state(states, thread_index):
+        file_path = state_file_template.format(thread_index)
+        with open(file_path, "w") as f:
+            json.dump(states, f, ensure_ascii=False, indent=4)  # Định dạng dễ đọc và tránh lỗi ghi
+
+    # Hàm đọc trạng thái
+    def load_state(thread_index):
+        try:
+            file_path = state_file_template.format(thread_index)
+            if os.path.exists(file_path) and os.path.getsize(file_path) > 0:  # Kiểm tra file tồn tại và không trống
+                with open(file_path, "r") as f:
+                    states = json.load(f)
+                    if isinstance(states, dict) and "start_index" in states:
+                        return states
+            # Nếu không hợp lệ hoặc không có 'start_index'
+            return {"start_index": 0}
+        except FileNotFoundError:
+            return {"start_index": 0}
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON in file {file_path}: {e}")
+            return {"start_index": 0}  # Khởi tạo lại nếu lỗi
 
 
-    # Chạy vòng lặp for
-    for item in data_list:
-        id_info = get_id_details(cookie,item)
-        all_id_info.append(id_info)
-    df = pd.DataFrame(all_id_info)
-    df.to_csv("all_co_id_info_new.csv",index=False, encoding='utf-8')
+    # Hàm xử lý từng chunk dữ liệu
+    def process_data_chunk(data_chunk, thread_index, start_index):
+        all_id_info = [] 
+        error_stt_list = []
+        current_index = start_index
+
+        while True:
+            try:
+                for index, item in enumerate(data_chunk[start_index:], start=start_index):
+                    try:
+                        id_info = get_id_details(cookie, item)  # Hàm `get_id_details` cần được định nghĩa
+                        all_id_info.append(id_info)
+
+                        # Ghi kết quả vào file riêng cho thread
+                        with open(output_file_template.format(thread_index), "a", encoding="utf-8") as f:
+                            f.write(json.dumps(id_info, ensure_ascii=False) + "\n")
+                    except Exception as e:
+                        print(f"Error processing row {index}: {e}")
+                        error_stt_list.append({"stt": index, "error": str(e)})
+
+                        # Ghi lỗi vào file
+                        with open(error_file_template.format(thread_index), "a", encoding="utf-8") as f:
+                            f.write(json.dumps({"stt": index, "error": str(e)}, ensure_ascii=False) + "\n")
+                    finally:
+                        # Cập nhật trạng thái
+                        current_index = index + 1
+                        save_state({"start_index": current_index}, thread_index)
+                return all_id_info, current_index, error_stt_list
+            except Exception as e:
+                print(f"Thread {thread_index} encountered an error: {e}. Restarting...")
+                time.sleep(5)  # Đợi 5 giây trước khi thử lại
+
+    # Thư mục để lưu trạng thái và kết quả
+    output_dir = "org"
+    os.makedirs(output_dir, exist_ok=True)
+
+    state_file_template = os.path.join(output_dir, "loop_state_{}.json")
+    output_file_template = os.path.join(output_dir, "output_data_{}.txt")
+    error_file_template = os.path.join(output_dir, "error_stt_{}.txt")
+
+    # Chia danh sách thành các chunk
+    with open("output_co_ids.txt", "r", encoding="utf-8") as file:
+        data_list = [line.strip() for line in file]
+
+    # chia thành 10 luồng
+    chunk_count = 10
+    chunk_size = -(-len(data_list) // chunk_count)
+    chunks = [data_list[i:i + chunk_size] for i in range(0, len(data_list), chunk_size)]
+
+    # Tải trạng thái đã lưu
+    saved_states = []
+    for i in range(len(chunks)):
+        state = load_state(i)
+        if "start_index" not in state:  # Đảm bảo có key 'start_index'
+            state = {"start_index": 0}
+        saved_states.append(state)
+
+    # Xử lý đa luồng
+    states = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(chunks)) as executor:
+        futures = {
+            executor.submit(process_data_chunk, chunk, idx, saved_states[idx]["start_index"]): idx
+            for idx, chunk in enumerate(chunks)
+        }
+        for future in concurrent.futures.as_completed(futures):
+            thread_index = futures[future]
+            try:
+                results, current_index, error_stts = future.result()
+                states[thread_index] = {"start_index": current_index}
+            except Exception as e:
+                print(f"Thread {thread_index} encountered an error: {e}")
+                save_state({"start_index": 0}, thread_index)
+
+    # Hợp nhất và lưu dữ liệu lỗi
+    error_file_names = [error_file_template.format(i) for i in range(chunk_count)]
+    all_error_data = []
+    for file_name in error_file_names:
+        if os.path.exists(file_name):
+            with open(file_name, "r", encoding="utf-8") as file:
+                all_error_data.extend(json.loads(line) for line in file)
+
+    error_df = pd.DataFrame(all_error_data)
+    error_df.to_csv("all_error_co_id_info.csv", index=False, encoding="utf-8")
+
+    # Hợp nhất và lưu dữ liệu kết quả
+    output_file_names = [output_file_template.format(i) for i in range(chunk_count)]
+    all_output_data = []
+    for file_name in output_file_names:
+        if os.path.exists(file_name):
+            with open(file_name, "r", encoding="utf-8") as file:
+                all_output_data.extend(json.loads(line) for line in file)
+
+    output_df = pd.DataFrame(all_output_data)
+    output_df.to_csv("all_co_id_info.csv", index=False, encoding="utf-8")
+
 
 # %%
 def import_co_details_to_db(company_name,username,password):
@@ -824,38 +939,83 @@ def import_co_details_to_db(company_name,username,password):
         ))
 
 
-        # Chèn dữ liệu vào bảng Transport
+        # Chèn hoặc cập nhật dữ liệu bảng Transport
         cursor.execute("""
-            INSERT INTO Transport (doc_id, transport_type, departure_date, vessel_aircraft_name, port_of_loading, port_of_discharge, transport_doc)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
-        """, record['doc_id'], record['transport_type'], str(record['Departure Date']), record['vessel_aircraft_name'], record['port_of_loading'], record['port_of_discharge'], record['transport_doc'])
+            MERGE INTO Transport AS target
+            USING (VALUES (?, ?, ?, ?, ?, ?, ?)) AS source
+                (doc_id, transport_type, departure_date, vessel_aircraft_name, port_of_loading, port_of_discharge, transport_doc)
+            ON target.doc_id = source.doc_id
+            WHEN MATCHED THEN 
+                UPDATE SET 
+                    transport_type = source.transport_type,
+                    departure_date = source.departure_date,
+                    vessel_aircraft_name = source.vessel_aircraft_name,
+                    port_of_loading = source.port_of_loading,
+                    port_of_discharge = source.port_of_discharge,
+                    transport_doc = source.transport_doc
+            WHEN NOT MATCHED THEN 
+                INSERT (doc_id, transport_type, departure_date, vessel_aircraft_name, port_of_loading, port_of_discharge, transport_doc)
+                VALUES (source.doc_id, source.transport_type, source.departure_date, source.vessel_aircraft_name, source.port_of_loading, source.port_of_discharge, source.transport_doc);
+        """, (record['doc_id'], record['transport_type'], str(record['Departure Date']), record['vessel_aircraft_name'], record['port_of_loading'], record['port_of_discharge'], record['transport_doc']))
 
-        # Chèn dữ liệu vào bảng ExportDeclaration
+        # Chèn hoặc cập nhật dữ liệu bảng ExportDeclaration
         for export in record['ExportDeclaration']:
             export_invoice_date = convert_to_date(export.get('invoice_date', None))  # Kiểm tra ngày hóa đơn
             cursor.execute("""
-                INSERT INTO ExportDeclaration (doc_id, item_num, invoice_number, invoice_date, invoice_link)
-                VALUES (?, ?, ?, ?, ?)
-            """, record['doc_id'], export['item_num'], export['invoice_number'], str(export_invoice_date), export['invoice_link'])
+                MERGE INTO ExportDeclaration AS target
+                USING (VALUES (?, ?, ?, ?, ?)) AS source
+                    (doc_id, item_num, invoice_number, invoice_date, invoice_link)
+                ON target.doc_id = source.doc_id AND target.invoice_number = source.invoice_number
+                WHEN MATCHED THEN 
+                    UPDATE SET 
+                        item_num = source.item_num,
+                        invoice_date = source.invoice_date,
+                        invoice_link = source.invoice_link
+                WHEN NOT MATCHED THEN 
+                    INSERT (doc_id, item_num, invoice_number, invoice_date, invoice_link)
+                    VALUES (source.doc_id, source.item_num, source.invoice_number, source.invoice_date, source.invoice_link);
+            """, (record['doc_id'], export['item_num'], export['invoice_number'], str(export_invoice_date), export['invoice_link']))
 
-        # Chèn dữ liệu vào bảng Goods_info
+        # Chèn hoặc cập nhật dữ liệu bảng Goods_info
         for idx, goods in enumerate(record['goods_info'][1:], 1):  # Bỏ qua dòng tiêu đề
             try:
                 cursor.execute("""
-                    INSERT INTO Goods_info (doc_id, item_num, item_number, item_id, Marks_and_numbers_on_packages, Goods_description, Origin_criterion, FOB_value, Invoice_number_and_date)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-                """, record['doc_id'], idx, goods[0], goods[1], goods[2], goods[3], goods[4], goods[5], goods[6])
+                    MERGE INTO Goods_info AS target
+                    USING (VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)) AS source
+                        (doc_id, item_num, item_number, item_id, Marks_and_numbers_on_packages, Goods_description, Origin_criterion, FOB_value, Invoice_number_and_date)
+                    ON target.doc_id = source.doc_id AND target.item_id = source.item_id
+                    WHEN MATCHED THEN 
+                        UPDATE SET 
+                            item_num = source.item_num,
+                            item_number = source.item_number,
+                            Marks_and_numbers_on_packages = source.Marks_and_numbers_on_packages,
+                            Goods_description = source.Goods_description,
+                            Origin_criterion = source.Origin_criterion,
+                            FOB_value = source.FOB_value,
+                            Invoice_number_and_date = source.Invoice_number_and_date
+                    WHEN NOT MATCHED THEN 
+                        INSERT (doc_id, item_num, item_number, item_id, Marks_and_numbers_on_packages, Goods_description, Origin_criterion, FOB_value, Invoice_number_and_date)
+                        VALUES (source.doc_id, source.item_num, source.item_number, source.item_id, source.Marks_and_numbers_on_packages, source.Goods_description, source.Origin_criterion, source.FOB_value, source.Invoice_number_and_date);
+                """, (record['doc_id'], idx, goods[0], goods[1], goods[2], goods[3], goods[4], goods[5], goods[6]))
             except:
                 True
-        # Chèn dữ liệu vào bảng Remarks_info, nếu tồn tại
+        # Chèn hoặc cập nhật dữ liệu bảng Remarks_info
         remarks_info = record.get('remarks_info', [])  # Nếu không có 'remarks_info', gán giá trị mặc định là list rỗng
         for remark in remarks_info:
             cursor.execute("""
-                INSERT INTO Remarks_info (doc_id, label, checked)
-                VALUES (?, ?, ?)
-            """, record['doc_id'], remark['label'], remark['checked'])
+                MERGE INTO Remarks_info AS target
+                USING (VALUES (?, ?, ?)) AS source
+                    (doc_id, label, checked)
+                ON target.doc_id = source.doc_id AND target.label = source.label
+                WHEN MATCHED THEN 
+                    UPDATE SET 
+                        checked = source.checked
+                WHEN NOT MATCHED THEN 
+                    INSERT (doc_id, label, checked)
+                    VALUES (source.doc_id, source.label, source.checked);
+            """, (record['doc_id'], remark['label'], remark['checked']))
 
-        # Chèn dữ liệu vào bảng from_to
+        # Chèn hoặc cập nhật dữ liệu bảng from_to
         def split_address(address_list):
             name = address_list[0].strip() if address_list else ''
             address1 = address_list[1].strip() if len(address_list) > 1 else ''
@@ -865,27 +1025,55 @@ def import_co_details_to_db(company_name,username,password):
         # Tách dữ liệu và chèn vào bảngfrom_to
         name_export, address_export, address_export2 = split_address(record['Goods consigned from'])
         name_import, address_import, address_import2 = split_address(record['Goods consigned to'])
-
-        # Chèn dữ liệu vào bảng from_to
+        
         cursor.execute("""
-            INSERT INTO from_to (doc_id, name_export, address_export, address_export2, name_import, address_import, address_import2)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
-        """, record['doc_id'], name_export, address_export, address_export2, name_import, address_import, address_import2)
+            MERGE INTO from_to AS target
+            USING (VALUES (?, ?, ?, ?, ?, ?, ?)) AS source
+                (doc_id, name_export, address_export, address_export2, name_import, address_import, address_import2)
+            ON target.doc_id = source.doc_id
+            WHEN MATCHED THEN 
+                UPDATE SET 
+                    name_export = source.name_export,
+                    address_export = source.address_export,
+                    address_export2 = source.address_export2,
+                    name_import = source.name_import,
+                    address_import = source.address_import,
+                    address_import2 = source.address_import2
+            WHEN NOT MATCHED THEN 
+                INSERT (doc_id, name_export, address_export, address_export2, name_import, address_import, address_import2)
+                VALUES (source.doc_id, source.name_export, source.address_export, source.address_export2, source.name_import, source.address_import, source.address_import2);
+        """, (record['doc_id'], name_export, address_export, address_export2, name_import, address_import, address_import2))
 
-        #chèn dữ liệu bảng origindoc
+        # Chèn hoặc cập nhật dữ liệu bảng origindoc
         for idx, docs in enumerate(record['origindoc'][0:]):  
             cursor.execute("""
-                INSERT INTO origindoc (doc_id,origindoc )
-                VALUES (?, ?)
-            """, record['doc_id'], docs)
-            
-        #chèn dữ liệu bảng invoice_attached
+                MERGE INTO origindoc AS target
+                USING (VALUES (?, ?)) AS source
+                    (doc_id, origindoc)
+                ON target.doc_id = source.doc_id AND target.origindoc = source.origindoc
+                WHEN MATCHED THEN 
+                    UPDATE SET 
+                        origindoc = source.origindoc
+                WHEN NOT MATCHED THEN 
+                    INSERT (doc_id, origindoc)
+                    VALUES (source.doc_id, source.origindoc);
+            """, (record['doc_id'], docs))
 
+        # Chèn hoặc cập nhật dữ liệu bảng invoice_attached
         for idx, invoice_attached in enumerate(record['invoice_attached'][0:]):  
             cursor.execute("""
-                INSERT INTO invoice_attached (doc_id,invoice_attached )
-                VALUES (?, ?)
-            """, record['doc_id'], invoice_attached)
+                MERGE INTO invoice_attached AS target
+                USING (VALUES (?, ?)) AS source
+                    (doc_id, invoice_attached)
+                ON target.doc_id = source.doc_id AND target.invoice_attached = source.invoice_attached
+                WHEN MATCHED THEN 
+                    UPDATE SET 
+                        invoice_attached = source.invoice_attached
+                WHEN NOT MATCHED THEN 
+                    INSERT (doc_id, invoice_attached)
+                    VALUES (source.doc_id, source.invoice_attached);
+            """, (record['doc_id'], invoice_attached))
+
         
     # Commit các thay đổi vào cơ sở dữ liệu
     connection.commit()
@@ -1220,41 +1408,147 @@ def run_get_invoice_details():
     with open("output_invoice_ids.txt", "w", encoding="utf-8") as file:
         for item in ids:
             file.write(f"{item}\n")  
-    
 
-    # Danh sách lưu thông tin hóa đơn
-    all_invoice_info = []
+    # Hàm lưu trạng thái
+    def save_state(states, thread_index):
+        file_path = state_file_template.format(thread_index)
+        with open(file_path, "w") as f:
+            json.dump(states, f, ensure_ascii=False, indent=4)  # Định dạng dễ đọc và tránh lỗi ghi
 
-    # Số lần thử lại tối đa
-    MAX_RETRIES = 10
-    RETRY_DELAY = 3  # Giây
-    with open("output_invoice_ids.txt", "r", encoding="utf-8") as file:
-        invoice_list = [line.strip() for line in file]  
-        
-    for invoice in invoice_list:
-        retries = 0
-        success = False
-        
-        while retries < MAX_RETRIES and not success:
+    # Hàm đọc trạng thái
+    def load_state(thread_index):
+        try:
+            file_path = state_file_template.format(thread_index)
+            if os.path.exists(file_path) and os.path.getsize(file_path) > 0:  # Kiểm tra file tồn tại và không trống
+                with open(file_path, "r") as f:
+                    states = json.load(f)
+                    if isinstance(states, dict) and "start_index" in states:
+                        return states
+            # Nếu không hợp lệ hoặc không có 'start_index'
+            return {"start_index": 0}
+        except FileNotFoundError:
+            return {"start_index": 0}
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON in file {file_path}: {e}")
+            return {"start_index": 0}  # Khởi tạo lại nếu lỗi
+
+
+    # Hàm xử lý từng chunk dữ liệu
+    def process_data_chunk(data_chunk, thread_index, start_index):
+        all_invoice_info = [] 
+        error_stt_list = []
+        current_index = start_index
+        MAX_RETRIES = 10
+        RETRY_DELAY = 3  # Giây
+
+        while True:
             try:
-                invoice_info = get_invoice_info(cookie, invoice)
-                all_invoice_info.append(invoice_info)
-                success = True  # Xử lý thành công, thoát vòng lặp retry
-            except ConnectionError as e:
-                retries += 1
-                print(f"Connection error for invoice {invoice}. Retry {retries}/{MAX_RETRIES}. Error: {e}")
-                time.sleep(RETRY_DELAY)
+                for index, item in enumerate(data_chunk[start_index:], start=start_index):
+                    retries = 0
+                    success = False
+
+                    while retries < MAX_RETRIES and not success:
+                        try:
+                            invoice_info = get_invoice_info(cookie, item)
+                            all_invoice_info.append(invoice_info)
+                            success = True  # Xử lý thành công, thoát vòng lặp retry
+                            
+                            # Ghi kết quả vào file riêng cho thread
+                            with open(output_file_template.format(thread_index), "a", encoding="utf-8") as f:
+                                f.write(json.dumps(invoice_info, ensure_ascii=False) + "\n")
+                        
+                        except ConnectionError as e:
+                            retries += 1
+                            print(f"Connection error for invoice {item}. Retry {retries}/{MAX_RETRIES}. Error: {e}")
+                            time.sleep(RETRY_DELAY)
+                        
+                        except Exception as e:
+                            retries += 1
+                            print(f"Error processing invoice {item}. Retry {retries}/{MAX_RETRIES}. Error: {e}")
+                            time.sleep(RETRY_DELAY)
+
+                    if not success:
+                        print(f"Failed to process invoice {item} after {MAX_RETRIES} retries.")
+                        error_stt_list.append({"stt": item, "error": "Max retries exceeded"})
+                        
+                        # Ghi lỗi vào file
+                        with open(error_file_template.format(thread_index), "a", encoding="utf-8") as f:
+                            f.write(json.dumps({"stt": item, "error": "Max retries exceeded"}, ensure_ascii=False) + "\n")
+
+                    # Cập nhật trạng thái
+                    current_index = index + 1
+                    save_state({"start_index": current_index}, thread_index)
+
+                # Hoàn thành chunk, trả về kết quả
+                return all_invoice_info, current_index, error_stt_list
+
             except Exception as e:
-                retries += 1
-                print(f"Error processing invoice {invoice}. Retry {retries}/{MAX_RETRIES}. Error: {e}")
-                time.sleep(RETRY_DELAY)
+                print(f"Thread {thread_index} encountered an error: {e}. Restarting...")
+                time.sleep(5)  # Đợi 5 giây trước khi thử lại
 
-        if not success:
-            print(f"Failed to process invoice {invoice} after {MAX_RETRIES} retries.")
+                
+    # Thư mục để lưu trạng thái và kết quả
+    output_dir = "org"
+    os.makedirs(output_dir, exist_ok=True)
 
-    import pandas as pd
-    df = pd.DataFrame(all_invoice_info)
-    df.to_csv("all_invoice_info.csv",index=False, encoding='utf-8')
+    state_file_template = os.path.join(output_dir, "loop_state_invoice_{}.json")
+    output_file_template = os.path.join(output_dir, "output_invoice_data_{}.txt")
+    error_file_template = os.path.join(output_dir, "error_invoice_ids_{}.txt")
+
+    # Chia danh sách thành các chunk
+    with open("output_invoice_ids.txt", "r", encoding="utf-8") as file:
+        invoice_list = [line.strip() for line in file]
+
+    chunk_count = 10
+    chunk_size = -(-len(invoice_list) // chunk_count)
+    chunks = [invoice_list[i:i + chunk_size] for i in range(0, len(invoice_list), chunk_size)]
+
+    # Tải trạng thái đã lưu
+    saved_states = []
+    for i in range(len(chunks)):
+        state = load_state(i)
+        if "start_index" not in state:  # Đảm bảo có key 'start_index'
+            state = {"start_index": 0}
+        saved_states.append(state)
+
+    # Xử lý đa luồng
+    states = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(chunks)) as executor:
+        futures = {
+            executor.submit(process_data_chunk, chunk, idx, saved_states[idx]["start_index"]): idx
+            for idx, chunk in enumerate(chunks)
+        }
+        for future in concurrent.futures.as_completed(futures):
+            thread_index = futures[future]
+            try:
+                results, current_index, error_stts = future.result()
+                states[thread_index] = {"start_index": current_index}
+            except Exception as e:
+                print(f"Thread {thread_index} encountered an error: {e}")
+                save_state({"start_index": 0}, thread_index)
+
+    # Hợp nhất và lưu dữ liệu lỗi
+    error_file_names = [error_file_template.format(i) for i in range(chunk_count)]
+    all_error_data = []
+    for file_name in error_file_names:
+        if os.path.exists(file_name):
+            with open(file_name, "r", encoding="utf-8") as file:
+                all_error_data.extend(json.loads(line) for line in file)
+
+    error_df = pd.DataFrame(all_error_data)
+    error_df.to_csv("all_error_invoice_id.csv", index=False, encoding="utf-8")
+
+    # Hợp nhất và lưu dữ liệu kết quả
+    output_file_names = [output_file_template.format(i) for i in range(chunk_count)]
+    all_output_data = []
+    for file_name in output_file_names:
+        if os.path.exists(file_name):
+            with open(file_name, "r", encoding="utf-8") as file:
+                all_output_data.extend(json.loads(line) for line in file)
+
+    output_df = pd.DataFrame(all_output_data)
+    output_df.to_csv("all_invoice_info.csv", index=False, encoding="utf-8")
+
 
 # %%
 def import_invoice_details_to_db():
@@ -1302,7 +1596,7 @@ def import_invoice_details_to_db():
     connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={dbusername};PWD={dbpassword}')
     cursor = connection.cursor()
 
-    # Tạo bảng C/O
+    # Tạo bảng invoice
     cursor.execute("""
         IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'invoice')
         BEGIN
@@ -1323,7 +1617,7 @@ def import_invoice_details_to_db():
             );
         END
     """)
-    #tạo bảng transport
+    #tạo bảng invoice_co_info
     cursor.execute("""
 
         IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'invoice_co_info')
@@ -1353,21 +1647,56 @@ def import_invoice_details_to_db():
 
     # Chèn dữ liệu vào bảng invoice
     for idx,record in df.iterrows():
+        # Chèn hoặc cập nhật dữ liệu vào bảng invoice
         cursor.execute("""
-            INSERT INTO invoice (invoice_doc_id,status,ordercode,companyname,companytaxcode,companyaddress,companyemail,amount,invoice_receip_no,invoice_address_label,another_email,created_at,last_modified_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """, record['doc_id'], record['status'], record['ordercode'], 
-            record['companyname'], record['companytaxcode'], record['companyaddress'],record['companyemail'],
-            record['amount'], record['invoice_receip_no'], record['invoice_address_label'],
-            record['another_email'], str(record['created_at']), str(record['last_modified_at'])
-            )
+            MERGE INTO invoice AS target
+            USING (VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) AS source
+                (invoice_doc_id, status, ordercode, companyname, companytaxcode, companyaddress, companyemail, amount, invoice_receip_no, invoice_address_label, another_email, created_at, last_modified_at)
+            ON target.invoice_doc_id = source.invoice_doc_id
+            WHEN MATCHED THEN
+                UPDATE SET
+                    status = source.status,
+                    ordercode = source.ordercode,
+                    companyname = source.companyname,
+                    companytaxcode = source.companytaxcode,
+                    companyaddress = source.companyaddress,
+                    companyemail = source.companyemail,
+                    amount = source.amount,
+                    invoice_receip_no = source.invoice_receip_no,
+                    invoice_address_label = source.invoice_address_label,
+                    another_email = source.another_email,
+                    created_at = source.created_at,
+                    last_modified_at = source.last_modified_at
+            WHEN NOT MATCHED THEN
+                INSERT (invoice_doc_id, status, ordercode, companyname, companytaxcode, companyaddress, companyemail, amount, invoice_receip_no, invoice_address_label, another_email, created_at, last_modified_at)
+                VALUES (source.invoice_doc_id, source.status, source.ordercode, source.companyname, source.companytaxcode, source.companyaddress, source.companyemail, source.amount, source.invoice_receip_no, source.invoice_address_label, source.another_email, source.created_at, source.last_modified_at);
+        """, (
+            record['doc_id'], record['status'], record['ordercode'], 
+            record['companyname'], record['companytaxcode'], record['companyaddress'], 
+            record['companyemail'], record['amount'], record['invoice_receip_no'], 
+            record['invoice_address_label'], record['another_email'], 
+            str(record['created_at']), str(record['last_modified_at'])
+        ))
 
-        # Chèn dữ liệu vào bảng invoice_co_info
+
+        # Chèn hoặc cập nhật dữ liệu vào bảng invoice_co_info
         for idx, goods in enumerate(record['co_info'][1:], 1):  # Bỏ qua dòng tiêu đề
             cursor.execute("""
-                INSERT INTO invoice_co_info (invoice_doc_id,item_num, co_num, fee_type, fee)
-                VALUES (?, ?, ?, ?, ?)
-            """, record['doc_id'], idx, goods[0], goods[2], goods[3])
+                MERGE INTO invoice_co_info AS target
+                USING (VALUES (?, ?, ?, ?, ?)) AS source
+                    (invoice_doc_id, item_num, co_num, fee_type, fee)
+                ON target.invoice_doc_id = source.invoice_doc_id AND target.co_num = source.co_num
+                WHEN MATCHED THEN
+                    UPDATE SET
+                        item_num = source.item_num,
+                        fee_type = source.fee_type,
+                        fee = source.fee
+                WHEN NOT MATCHED THEN
+                    INSERT (invoice_doc_id, item_num, co_num, fee_type, fee)
+                    VALUES (source.invoice_doc_id, source.item_num, source.co_num, source.fee_type, source.fee);
+            """, (
+                record['doc_id'], idx, goods[0], goods[2], goods[3]
+            ))
 
 
     # Commit các thay đổi vào cơ sở dữ liệu
@@ -1379,7 +1708,20 @@ def import_invoice_details_to_db():
 
     print("Dữ liệu đã được chèn thành công.")
 
-
+def delete_org_folder():
+    try:
+        # Duyệt qua tất cả các file trong thư mục
+        for filename in os.listdir('org'):
+            file_path = os.path.join('org', filename)
+            # Kiểm tra nếu là file thì xóa
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+                print(f"Đã xóa file: {file_path}")
+            else:
+                print(f"Bỏ qua thư mục hoặc file không hợp lệ: {file_path}")
+        print("Đã xóa tất cả file trong thư mục org.")
+    except Exception as e:
+        print(f"Đã xảy ra lỗi: {e}")
 
 # %%
 # Kết nối tới SQL Server
@@ -1388,7 +1730,7 @@ dbusername = 'sa'
 dbpassword = '1234QWER@'
 
 # %%
-for account in account_list[5:]:
+for account in account_list[:]:
     print("Account: ",account['username'],account['password'])
     username = account['username']
     password = account['password']
@@ -1397,3 +1739,4 @@ for account in account_list[5:]:
     import_co_details_to_db(username,dbusername,dbpassword)
     run_get_invoice_details()
     import_invoice_details_to_db()
+    delete_org_folder()
