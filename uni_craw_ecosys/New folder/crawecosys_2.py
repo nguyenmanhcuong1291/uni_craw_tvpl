@@ -23,7 +23,7 @@ import json
 import concurrent.futures
 
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"/usr/bin/tesseract"
 
 def download_captcha(captcha_url, driver):
     # Tạo một session mới
@@ -93,8 +93,8 @@ def run_multiple_captcha_attempts(captcha_path,attempts=10):
     # Determine the most repeated result
     most_common = Counter(results).most_common(1)
     if most_common:
-        print(f"\nMost repeated CAPTCHA result: {most_common[0][0].replace(" ", "")}")
-    
+        print(f"\nMost repeated CAPTCHA result: {most_common[0][0].replace(' ', '')}")
+
     return most_common[0][0].replace(" ", "")
 def get_cookie(user_name, password):
     while True:  # Vòng lặp để thử đăng nhập liên tục cho đến khi thành công
@@ -745,25 +745,25 @@ def import_co_details_to_db(company_name,username,password):
     df = df.fillna('')
     import pyodbc
 
-    # Kết nối đến database master để tạo database mới
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=master;UID={username};PWD={password}')
-    cursor = connection.cursor()
+    # # Kết nối đến database master để tạo database mới
+    # connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=master;UID={username};PWD={password}')
+    # cursor = connection.cursor()
 
-    # Tạo database nếu chưa tồn tại
-    try:
-        cursor.execute("IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'COData') "
-                    "BEGIN "
-                    "CREATE DATABASE COData; "
-                    "END")
-        connection.commit()  # Commit lệnh CREATE DATABASE
-    except Exception as e:
-        print("Lỗi khi tạo cơ sở dữ liệu:", e)
+    # # Tạo database nếu chưa tồn tại
+    # try:
+    #     cursor.execute("IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'COData') "
+    #                 "BEGIN "
+    #                 "CREATE DATABASE COData; "
+    #                 "END")
+    #     connection.commit()  # Commit lệnh CREATE DATABASE
+    # except Exception as e:
+    #     print("Lỗi khi tạo cơ sở dữ liệu:", e)
 
     # Đóng kết nối và mở lại kết nối tới database mới
-    connection.close()
+    # connection.close()
 
     # Kết nối đến database mới
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={username};PWD={password}')
+    connection = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE=COData;UID={username};PWD={password}')
     cursor = connection.cursor()
 
     # Tạo bảng C/O
@@ -907,7 +907,7 @@ def import_co_details_to_db(company_name,username,password):
     print("Cơ sở dữ liệu và các bảng đã được tạo thành công.")
 
     # Kết nối đến SQL Server
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={username};PWD={password}')
+    connection = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE=COData;UID={username};PWD={password}')
     cursor = connection.cursor()
 
     # Chèn dữ liệu vào bảng CO
@@ -1586,25 +1586,25 @@ def import_invoice_details_to_db():
     df = df.fillna('')
 
 
-    # Kết nối đến database master để tạo database mới
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=master;UID={dbusername};PWD={dbpassword}')
-    cursor = connection.cursor()
+    # # Kết nối đến database master để tạo database mới
+    # connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=master;UID={dbusername};PWD={dbpassword}')
+    # cursor = connection.cursor()
 
-    # Tạo database nếu chưa tồn tại
-    try:
-        cursor.execute("IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'COData') "
-                    "BEGIN "
-                    "CREATE DATABASE COData; "
-                    "END")
-        connection.commit()  # Commit lệnh CREATE DATABASE
-    except Exception as e:
-        print("Lỗi khi tạo cơ sở dữ liệu:", e)
+    # # Tạo database nếu chưa tồn tại
+    # try:
+    #     cursor.execute("IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'COData') "
+    #                 "BEGIN "
+    #                 "CREATE DATABASE COData; "
+    #                 "END")
+    #     connection.commit()  # Commit lệnh CREATE DATABASE
+    # except Exception as e:
+    #     print("Lỗi khi tạo cơ sở dữ liệu:", e)
 
     # Đóng kết nối và mở lại kết nối tới database mới
     connection.close()
 
     # Kết nối đến database mới
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={dbusername};PWD={dbpassword}')
+    connection = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE=COData;UID={dbusername};PWD={dbpassword}')
     cursor = connection.cursor()
 
     # Tạo bảng invoice
@@ -1653,7 +1653,7 @@ def import_invoice_details_to_db():
     print("Cơ sở dữ liệu và các bảng đã được tạo thành công.")
 
     # Kết nối đến SQL Server
-    connection = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={server};DATABASE=COData;UID={dbusername};PWD={dbpassword}')
+    connection = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE=COData;UID={dbusername};PWD={dbpassword}')
     cursor = connection.cursor()
 
     # Chèn dữ liệu vào bảng invoice
@@ -1736,7 +1736,7 @@ def delete_org_folder():
 
 # %%
 # Kết nối tới SQL Server
-server = 'localhost,1434'
+server = '3.35.252.62,1433'
 dbusername = 'sa'
 dbpassword = '1234QWER@'
 
