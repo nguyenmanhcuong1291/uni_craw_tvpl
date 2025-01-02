@@ -714,7 +714,7 @@ def run_get_id_details():
                 all_output_data.extend(json.loads(line) for line in file)
 
     output_df = pd.DataFrame(all_output_data)
-    output_df.to_csv("all_co_id_info.csv", index=False, encoding="utf-8")
+    output_df.to_csv("all_co_id_info_new.csv", index=False, encoding="utf-8")
 
 
 # %%

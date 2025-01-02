@@ -714,7 +714,7 @@ def run_get_id_details():
                 all_output_data.extend(json.loads(line) for line in file)
 
     output_df = pd.DataFrame(all_output_data)
-    output_df.to_csv("all_co_id_info.csv", index=False, encoding="utf-8")
+    output_df.to_csv("all_co_id_info_new.csv", index=False, encoding="utf-8")
 
 
 # %%
@@ -1601,7 +1601,7 @@ def import_invoice_details_to_db():
     #     print("Lỗi khi tạo cơ sở dữ liệu:", e)
 
     # Đóng kết nối và mở lại kết nối tới database mới
-    connection.close()
+    # connection.close()
 
     # Kết nối đến database mới
     connection = pyodbc.connect(f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE=COData;UID={dbusername};PWD={dbpassword}')
