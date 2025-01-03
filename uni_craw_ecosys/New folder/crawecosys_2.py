@@ -720,7 +720,7 @@ def run_get_id_details():
 # %%
 def import_co_details_to_db(company_name,username,password):
     # Đọc file CSV
-    df = pd.read_csv("all_co_id_info_new.csv", quotechar='"', sep=",", encoding="utf-8")
+    df = pd.read_csv("all_co_id_info_new.csv", quotechar='"', sep=",", encoding="utf-8",dtype=str)
     def convert_to_date(date_str):
         try:
             if date_str and isinstance(date_str, str):  # Kiểm tra nếu date_str không rỗng và là chuỗi
@@ -1321,13 +1321,13 @@ def run_get_invoice_details():
     def generate_dates(start_date, end_date):
         periods = []
         current_end = datetime.strptime(end_date, "%d/%m/%Y")
-        current_start = current_end - timedelta(days=28)
+        current_start = current_end - timedelta(days=10)
         
         while current_start >= datetime.strptime(start_date, "%d/%m/%Y"):
             periods.append((current_start.strftime("%d/%m/%Y"), current_end.strftime("%d/%m/%Y")))
             # Lùi lại một tuần
             current_end = current_start - timedelta(days=1)
-            current_start = current_end - timedelta(days=29)
+            current_start = current_end - timedelta(days=10)
         periods.append((start_date, current_end.strftime("%d/%m/%Y")))
 
         return periods
@@ -1564,7 +1564,7 @@ def run_get_invoice_details():
 # %%
 def import_invoice_details_to_db():
     # Đọc file CSV
-    df = pd.read_csv("all_invoice_info.csv", quotechar='"', sep=",", encoding="utf-8")
+    df = pd.read_csv("all_invoice_info.csv", quotechar='"', sep=",", encoding="utf-8",dtype=str)
     def convert_to_datetime(date_str):
         try:
             if date_str and isinstance(date_str, str):  # Kiểm tra nếu date_str không rỗng và là chuỗi
@@ -1745,9 +1745,13 @@ for account in account_list[:]:
     print("Account: ",account['username'],account['password'])
     username = account['username']
     password = account['password']
-    cookie = get_cookie(username,password)
-    run_get_id_details()
-    import_co_details_to_db(username,dbusername,dbpassword)
-    run_get_invoice_details()
-    import_invoice_details_to_db()
-    delete_org_folder()
+    try:
+        cookie = get_cookie(username,password)
+        run_get_id_details()
+        import_co_details_to_db(username,dbusername,dbpassword)
+        run_get_invoice_details()
+        import_invoice_details_to_db()
+    except: 
+        continue
+    finally:
+        delete_org_folder()
