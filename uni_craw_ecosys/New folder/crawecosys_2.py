@@ -1749,6 +1749,7 @@ for account in account_list[:]:
         cookie = get_cookie(username,password)
         run_get_id_details()
         import_co_details_to_db(username,dbusername,dbpassword)
+        cookie = get_cookie(username,password)
         run_get_invoice_details()
         import_invoice_details_to_db()
     except: 
