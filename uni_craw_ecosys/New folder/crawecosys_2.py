@@ -1615,6 +1615,7 @@ def import_invoice_details_to_db():
                 invoice_doc_id VARCHAR(50) PRIMARY KEY,
                 status NVARCHAR(50),
                 ordercode VARCHAR(20),
+                invoice_code VARCHAR(50),
                 companyname NVARCHAR(100),
                 companytaxcode VARCHAR(50),
                 companyaddress NTEXT,
@@ -1661,13 +1662,14 @@ def import_invoice_details_to_db():
         # Chèn hoặc cập nhật dữ liệu vào bảng invoice
         cursor.execute("""
             MERGE INTO invoice AS target
-            USING (VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) AS source
-                (invoice_doc_id, status, ordercode, companyname, companytaxcode, companyaddress, companyemail, amount, invoice_receip_no, invoice_address_label, another_email, created_at, last_modified_at)
+            USING (VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) AS source
+                (invoice_doc_id, status, ordercode, invoice_code, companyname, companytaxcode, companyaddress, companyemail, amount, invoice_receip_no, invoice_address_label, another_email, created_at, last_modified_at)
             ON target.invoice_doc_id = source.invoice_doc_id
             WHEN MATCHED THEN
                 UPDATE SET
                     status = source.status,
                     ordercode = source.ordercode,
+                    invoice_code = source.invoice_code,
                     companyname = source.companyname,
                     companytaxcode = source.companytaxcode,
                     companyaddress = source.companyaddress,
@@ -1679,10 +1681,10 @@ def import_invoice_details_to_db():
                     created_at = source.created_at,
                     last_modified_at = source.last_modified_at
             WHEN NOT MATCHED THEN
-                INSERT (invoice_doc_id, status, ordercode, companyname, companytaxcode, companyaddress, companyemail, amount, invoice_receip_no, invoice_address_label, another_email, created_at, last_modified_at)
-                VALUES (source.invoice_doc_id, source.status, source.ordercode, source.companyname, source.companytaxcode, source.companyaddress, source.companyemail, source.amount, source.invoice_receip_no, source.invoice_address_label, source.another_email, source.created_at, source.last_modified_at);
+                INSERT (invoice_doc_id, status, ordercode, invoice_code, companyname, companytaxcode, companyaddress, companyemail, amount, invoice_receip_no, invoice_address_label, another_email, created_at, last_modified_at)
+                VALUES (source.invoice_doc_id, source.status, source.ordercode, source.invoice_code, source.companyname, source.companytaxcode, source.companyaddress, source.companyemail, source.amount, source.invoice_receip_no, source.invoice_address_label, source.another_email, source.created_at, source.last_modified_at);
         """, (
-            record['doc_id'], record['status'], record['ordercode'], 
+            record['doc_id'], record['status'], record['ordercode'], record['invoice_code'],
             record['companyname'], record['companytaxcode'], record['companyaddress'], 
             record['companyemail'], record['amount'], record['invoice_receip_no'], 
             record['invoice_address_label'], record['another_email'], 

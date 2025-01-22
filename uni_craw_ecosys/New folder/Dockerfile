@@ -32,7 +32,9 @@ WORKDIR /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy mã nguồn
-COPY . /app
+COPY crawecosys_2.py /app/crawecosys_2.py
+COPY account.csv /app/account.csv
+
 
 # Thiết lập biến môi trường để tesseract có thể tìm thấy tesseract.exe
 ENV TESSERACT_CMD=/usr/bin/tesseract
