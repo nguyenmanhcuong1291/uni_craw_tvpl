@@ -42,7 +42,7 @@ def download_captcha(captcha_url, driver):
     }
     
     # Gửi request để tải ảnh captcha
-    response = session.get(captcha_url, headers=headers)
+    response = session.get(captcha_url, headers=headers ,timeout=600)
     if response.status_code == 200:
         captcha_path = "captcha_image.png"
         with open(captcha_path, "wb") as f:
@@ -218,7 +218,7 @@ def request_first_page(fromdate,todate):
     }
 
     # Gửi yêu cầu GET
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, timeout=600)
 
     if response.status_code == 200:
         print(f"Request {fromdate},{todate} thành công!")
@@ -1748,12 +1748,20 @@ for account in account_list[:]:
     username = account['username']
     password = account['password']
     try:
-        cookie = get_cookie(username,password)
-        run_get_id_details()
-        import_co_details_to_db(username,dbusername,dbpassword)
-        cookie = get_cookie(username,password)
-        run_get_invoice_details()
-        import_invoice_details_to_db()
+
+        # try:
+        #     cookie = get_cookie(username, password)
+        #     run_get_id_details()
+        #     import_co_details_to_db(username, dbusername, dbpassword)
+        # except Exception as e:
+        #     print(f"Error {username}: {e}")
+
+        try:
+            cookie = get_cookie(username, password)
+            run_get_invoice_details()
+            # import_invoice_details_to_db()
+        except Exception as e:
+            print(f"Error {username}: {e}")
     except: 
         continue
     finally:
