@@ -97,8 +97,10 @@ def run_multiple_captcha_attempts(captcha_path,attempts=10):
 
     return most_common[0][0].replace(" ", "")
 def get_cookie(user_name, password):
-    while True:  # Vòng lặp để thử đăng nhập liên tục cho đến khi thành công
-        # Cấu hình Selenium WebDriver với chế độ headless
+    maxretries = 10
+    retrytimes = 0
+    while retrytimes < maxretries:  # Vòng lặp để thử đăng nhập liên tục
+        retrytimes += 1
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")  # Chế độ headless
         options.add_argument("--no-sandbox")  # Khắc phục lỗi sandbox trên Linux
