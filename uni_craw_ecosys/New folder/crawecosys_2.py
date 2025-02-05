@@ -97,7 +97,10 @@ def run_multiple_captcha_attempts(captcha_path,attempts=10):
 
     return most_common[0][0].replace(" ", "")
 def get_cookie(user_name, password):
-    while True:  # Vòng lặp để thử đăng nhập liên tục cho đến khi thành công
+    maxretries = 10
+    retrytimes = 0
+    while retrytimes < maxretries:  # Vòng lặp để thử đăng nhập liên tục
+        retrytimes += 1
         # Cấu hình Selenium WebDriver với chế độ headless
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")  # Chế độ headless
@@ -1749,17 +1752,17 @@ for account in account_list[:]:
     password = account['password']
     try:
 
-        # try:
-        #     cookie = get_cookie(username, password)
-        #     run_get_id_details()
-        #     import_co_details_to_db(username, dbusername, dbpassword)
-        # except Exception as e:
-        #     print(f"Error {username}: {e}")
+        try:
+            cookie = get_cookie(username, password)
+            run_get_id_details()
+            import_co_details_to_db(username, dbusername, dbpassword)
+        except Exception as e:
+            print(f"Error {username}: {e}")
 
         try:
             cookie = get_cookie(username, password)
             run_get_invoice_details()
-            # import_invoice_details_to_db()
+            import_invoice_details_to_db()
         except Exception as e:
             print(f"Error {username}: {e}")
     except: 

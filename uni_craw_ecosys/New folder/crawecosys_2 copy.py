@@ -101,6 +101,7 @@ def get_cookie(user_name, password):
     retrytimes = 0
     while retrytimes < maxretries:  # Vòng lặp để thử đăng nhập liên tục
         retrytimes += 1
+        # Cấu hình Selenium WebDriver với chế độ headless
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")  # Chế độ headless
         options.add_argument("--no-sandbox")  # Khắc phục lỗi sandbox trên Linux
