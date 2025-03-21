@@ -1,0 +1,144 @@
+{"import_importtariff_&_tax_item": "General Duty", "import_rate": "0.0%", "import_applicable_country": "Non-MFN", "import_note": "If export country is classified to multi-duty class, then the lowest import duty rate is Applicable.", "hs10digit": "9801001000"}
+{"import_importtariff_&_tax_item": "MFN Duty", "import_rate": "0.0%", "import_applicable_country": "Most-favored Nation", "hs10digit": "9801001000"}
+{"import_importtariff_&_tax_item": "MFN Interim Import Duty", "import_rate": "", "import_applicable_country": "Annul Interim Duty for MFN", "hs10digit": "9801001000"}
+{"import_importtariff_&_tax_item": "FTA Conventional Duty", "import_rate": "00%~0.0%", "import_applicable_country": "FTA Conventional Duty Search", "hs10digit": "9801001000"}
+{"import_importtariff_&_tax_item": "LDCs Preferential Duty", "import_rate": "0.0%", "import_applicable_country": "Low Developed Country", "hs10digit": "9801001000"}
+{"import_importtariff_&_tax_item": "Import Consumption Tax", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9801001000"}
+{"import_importtariff_&_tax_item": "Import VAT (Value-Added Tax)", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9801001000"}
+{"import_importtariff_&_tax_item": "China additional retaliatory tariff on USA", "import_rate": "0.0%", "import_applicable_country": "China retaliatory tariff against the United States enforced on Sep.  2018, because of the trade conflict with the Trump administration.", "import_note": "-", "hs10digit": "9801001000"}
+{"conventional_exporttariff_&_tax_item": "Export Duty", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801001000"}
+{"conventional_exporttariff_&_tax_item": "Interim Export Duty", "conventional_rate": "", "conventional_applicable_rate": "or.", "conventional_applicable_country": "China", "hs10digit": "9801001000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801001000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT Rebate", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801001000"}
+{"conventional_exporttariff_&_tax_item": "", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "", "hs10digit": "9801001000"}
+{"export_exporttariff_&_tax_item": "Export Duty", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801001000"}
+{"export_exporttariff_&_tax_item": "Interim Export Duty", "export_rate": "", "export_applicable_rate": "or.", "export_applicable_country": "China", "hs10digit": "9801001000"}
+{"export_exporttariff_&_tax_item": "Export VAT", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801001000"}
+{"export_exporttariff_&_tax_item": "Export VAT Rebate", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801001000"}
+{"export_exporttariff_&_tax_item": "", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "", "hs10digit": "9801001000"}
+{"import_importtariff_&_tax_item": "General Duty", "import_rate": "0.0%", "import_applicable_country": "Non-MFN", "import_note": "If export country is classified to multi-duty class, then the lowest import duty rate is Applicable.", "hs10digit": "9801009000"}
+{"import_importtariff_&_tax_item": "MFN Duty", "import_rate": "0.0%", "import_applicable_country": "Most-favored Nation", "hs10digit": "9801009000"}
+{"import_importtariff_&_tax_item": "MFN Interim Import Duty", "import_rate": "", "import_applicable_country": "Annul Interim Duty for MFN", "hs10digit": "9801009000"}
+{"import_importtariff_&_tax_item": "FTA Conventional Duty", "import_rate": "00%~0.0%", "import_applicable_country": "FTA Conventional Duty Search", "hs10digit": "9801009000"}
+{"import_importtariff_&_tax_item": "LDCs Preferential Duty", "import_rate": "0.0%", "import_applicable_country": "Low Developed Country", "hs10digit": "9801009000"}
+{"import_importtariff_&_tax_item": "Import Consumption Tax", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9801009000"}
+{"import_importtariff_&_tax_item": "Import VAT (Value-Added Tax)", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9801009000"}
+{"import_importtariff_&_tax_item": "China additional retaliatory tariff on USA", "import_rate": "0.0%", "import_applicable_country": "China retaliatory tariff against the United States enforced on Sep.  2018, because of the trade conflict with the Trump administration.", "import_note": "-", "hs10digit": "9801009000"}
+{"conventional_exporttariff_&_tax_item": "Export Duty", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801009000"}
+{"conventional_exporttariff_&_tax_item": "Interim Export Duty", "conventional_rate": "", "conventional_applicable_rate": "or.", "conventional_applicable_country": "China", "hs10digit": "9801009000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801009000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT Rebate", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801009000"}
+{"conventional_exporttariff_&_tax_item": "", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "", "hs10digit": "9801009000"}
+{"export_exporttariff_&_tax_item": "Export Duty", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801009000"}
+{"export_exporttariff_&_tax_item": "Interim Export Duty", "export_rate": "", "export_applicable_rate": "or.", "export_applicable_country": "China", "hs10digit": "9801009000"}
+{"export_exporttariff_&_tax_item": "Export VAT", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801009000"}
+{"export_exporttariff_&_tax_item": "Export VAT Rebate", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801009000"}
+{"export_exporttariff_&_tax_item": "", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "", "hs10digit": "9801009000"}
+{"import_importtariff_&_tax_item": "General Duty", "import_rate": "0.0%", "import_applicable_country": "Non-MFN", "import_note": "If export country is classified to multi-duty class, then the lowest import duty rate is Applicable.", "hs10digit": "9801301000"}
+{"import_importtariff_&_tax_item": "MFN Duty", "import_rate": "0.0%", "import_applicable_country": "Most-favored Nation", "hs10digit": "9801301000"}
+{"import_importtariff_&_tax_item": "MFN Interim Import Duty", "import_rate": "", "import_applicable_country": "Annul Interim Duty for MFN", "hs10digit": "9801301000"}
+{"import_importtariff_&_tax_item": "FTA Conventional Duty", "import_rate": "00%~0.0%", "import_applicable_country": "FTA Conventional Duty Search", "hs10digit": "9801301000"}
+{"import_importtariff_&_tax_item": "LDCs Preferential Duty", "import_rate": "0.0%", "import_applicable_country": "Low Developed Country", "hs10digit": "9801301000"}
+{"import_importtariff_&_tax_item": "Import Consumption Tax", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9801301000"}
+{"import_importtariff_&_tax_item": "Import VAT (Value-Added Tax)", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9801301000"}
+{"import_importtariff_&_tax_item": "China additional retaliatory tariff on USA", "import_rate": "0.0%", "import_applicable_country": "China retaliatory tariff against the United States enforced on Sep.  2018, because of the trade conflict with the Trump administration.", "import_note": "-", "hs10digit": "9801301000"}
+{"conventional_exporttariff_&_tax_item": "Export Duty", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801301000"}
+{"conventional_exporttariff_&_tax_item": "Interim Export Duty", "conventional_rate": "", "conventional_applicable_rate": "or.", "conventional_applicable_country": "China", "hs10digit": "9801301000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801301000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT Rebate", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801301000"}
+{"conventional_exporttariff_&_tax_item": "", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "", "hs10digit": "9801301000"}
+{"export_exporttariff_&_tax_item": "Export Duty", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801301000"}
+{"export_exporttariff_&_tax_item": "Interim Export Duty", "export_rate": "", "export_applicable_rate": "or.", "export_applicable_country": "China", "hs10digit": "9801301000"}
+{"export_exporttariff_&_tax_item": "Export VAT", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801301000"}
+{"export_exporttariff_&_tax_item": "Export VAT Rebate", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801301000"}
+{"export_exporttariff_&_tax_item": "", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "", "hs10digit": "9801301000"}
+{"import_importtariff_&_tax_item": "General Duty", "import_rate": "0.0%", "import_applicable_country": "Non-MFN", "import_note": "If export country is classified to multi-duty class, then the lowest import duty rate is Applicable.", "hs10digit": "9801309000"}
+{"import_importtariff_&_tax_item": "MFN Duty", "import_rate": "0.0%", "import_applicable_country": "Most-favored Nation", "hs10digit": "9801309000"}
+{"import_importtariff_&_tax_item": "MFN Interim Import Duty", "import_rate": "", "import_applicable_country": "Annul Interim Duty for MFN", "hs10digit": "9801309000"}
+{"import_importtariff_&_tax_item": "FTA Conventional Duty", "import_rate": "00%~0.0%", "import_applicable_country": "FTA Conventional Duty Search", "hs10digit": "9801309000"}
+{"import_importtariff_&_tax_item": "LDCs Preferential Duty", "import_rate": "0.0%", "import_applicable_country": "Low Developed Country", "hs10digit": "9801309000"}
+{"import_importtariff_&_tax_item": "Import Consumption Tax", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9801309000"}
+{"import_importtariff_&_tax_item": "Import VAT (Value-Added Tax)", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9801309000"}
+{"import_importtariff_&_tax_item": "China additional retaliatory tariff on USA", "import_rate": "0.0%", "import_applicable_country": "China retaliatory tariff against the United States enforced on Sep.  2018, because of the trade conflict with the Trump administration.", "import_note": "-", "hs10digit": "9801309000"}
+{"conventional_exporttariff_&_tax_item": "Export Duty", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801309000"}
+{"conventional_exporttariff_&_tax_item": "Interim Export Duty", "conventional_rate": "", "conventional_applicable_rate": "or.", "conventional_applicable_country": "China", "hs10digit": "9801309000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801309000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT Rebate", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9801309000"}
+{"conventional_exporttariff_&_tax_item": "", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "", "hs10digit": "9801309000"}
+{"export_exporttariff_&_tax_item": "Export Duty", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801309000"}
+{"export_exporttariff_&_tax_item": "Interim Export Duty", "export_rate": "", "export_applicable_rate": "or.", "export_applicable_country": "China", "hs10digit": "9801309000"}
+{"export_exporttariff_&_tax_item": "Export VAT", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801309000"}
+{"export_exporttariff_&_tax_item": "Export VAT Rebate", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9801309000"}
+{"export_exporttariff_&_tax_item": "", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "", "hs10digit": "9801309000"}
+{"import_importtariff_&_tax_item": "General Duty", "import_rate": "0.0%", "import_applicable_country": "Non-MFN", "import_note": "If export country is classified to multi-duty class, then the lowest import duty rate is Applicable.", "hs10digit": "9803001000"}
+{"import_importtariff_&_tax_item": "MFN Duty", "import_rate": "0.0%", "import_applicable_country": "Most-favored Nation", "hs10digit": "9803001000"}
+{"import_importtariff_&_tax_item": "MFN Interim Import Duty", "import_rate": "", "import_applicable_country": "Annul Interim Duty for MFN", "hs10digit": "9803001000"}
+{"import_importtariff_&_tax_item": "FTA Conventional Duty", "import_rate": "00%~0.0%", "import_applicable_country": "FTA Conventional Duty Search", "hs10digit": "9803001000"}
+{"import_importtariff_&_tax_item": "LDCs Preferential Duty", "import_rate": "0.0%", "import_applicable_country": "Low Developed Country", "hs10digit": "9803001000"}
+{"import_importtariff_&_tax_item": "Import Consumption Tax", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9803001000"}
+{"import_importtariff_&_tax_item": "Import VAT (Value-Added Tax)", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9803001000"}
+{"import_importtariff_&_tax_item": "China additional retaliatory tariff on USA", "import_rate": "0.0%", "import_applicable_country": "China retaliatory tariff against the United States enforced on Sep.  2018, because of the trade conflict with the Trump administration.", "import_note": "-", "hs10digit": "9803001000"}
+{"conventional_exporttariff_&_tax_item": "Export Duty", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803001000"}
+{"conventional_exporttariff_&_tax_item": "Interim Export Duty", "conventional_rate": "", "conventional_applicable_rate": "or.", "conventional_applicable_country": "China", "hs10digit": "9803001000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803001000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT Rebate", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803001000"}
+{"conventional_exporttariff_&_tax_item": "", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "", "hs10digit": "9803001000"}
+{"export_exporttariff_&_tax_item": "Export Duty", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803001000"}
+{"export_exporttariff_&_tax_item": "Interim Export Duty", "export_rate": "", "export_applicable_rate": "or.", "export_applicable_country": "China", "hs10digit": "9803001000"}
+{"export_exporttariff_&_tax_item": "Export VAT", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803001000"}
+{"export_exporttariff_&_tax_item": "Export VAT Rebate", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803001000"}
+{"export_exporttariff_&_tax_item": "", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "", "hs10digit": "9803001000"}
+{"import_importtariff_&_tax_item": "General Duty", "import_rate": "0.0%", "import_applicable_country": "Non-MFN", "import_note": "If export country is classified to multi-duty class, then the lowest import duty rate is Applicable.", "hs10digit": "9803002000"}
+{"import_importtariff_&_tax_item": "MFN Duty", "import_rate": "0.0%", "import_applicable_country": "Most-favored Nation", "hs10digit": "9803002000"}
+{"import_importtariff_&_tax_item": "MFN Interim Import Duty", "import_rate": "", "import_applicable_country": "Annul Interim Duty for MFN", "hs10digit": "9803002000"}
+{"import_importtariff_&_tax_item": "FTA Conventional Duty", "import_rate": "00%~0.0%", "import_applicable_country": "FTA Conventional Duty Search", "hs10digit": "9803002000"}
+{"import_importtariff_&_tax_item": "LDCs Preferential Duty", "import_rate": "0.0%", "import_applicable_country": "Low Developed Country", "hs10digit": "9803002000"}
+{"import_importtariff_&_tax_item": "Import Consumption Tax", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9803002000"}
+{"import_importtariff_&_tax_item": "Import VAT (Value-Added Tax)", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9803002000"}
+{"import_importtariff_&_tax_item": "China additional retaliatory tariff on USA", "import_rate": "0.0%", "import_applicable_country": "China retaliatory tariff against the United States enforced on Sep.  2018, because of the trade conflict with the Trump administration.", "import_note": "-", "hs10digit": "9803002000"}
+{"conventional_exporttariff_&_tax_item": "Export Duty", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803002000"}
+{"conventional_exporttariff_&_tax_item": "Interim Export Duty", "conventional_rate": "", "conventional_applicable_rate": "or.", "conventional_applicable_country": "China", "hs10digit": "9803002000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803002000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT Rebate", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803002000"}
+{"conventional_exporttariff_&_tax_item": "", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "", "hs10digit": "9803002000"}
+{"export_exporttariff_&_tax_item": "Export Duty", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803002000"}
+{"export_exporttariff_&_tax_item": "Interim Export Duty", "export_rate": "", "export_applicable_rate": "or.", "export_applicable_country": "China", "hs10digit": "9803002000"}
+{"export_exporttariff_&_tax_item": "Export VAT", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803002000"}
+{"export_exporttariff_&_tax_item": "Export VAT Rebate", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803002000"}
+{"export_exporttariff_&_tax_item": "", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "", "hs10digit": "9803002000"}
+{"import_importtariff_&_tax_item": "General Duty", "import_rate": "0.0%", "import_applicable_country": "Non-MFN", "import_note": "If export country is classified to multi-duty class, then the lowest import duty rate is Applicable.", "hs10digit": "9803003000"}
+{"import_importtariff_&_tax_item": "MFN Duty", "import_rate": "0.0%", "import_applicable_country": "Most-favored Nation", "hs10digit": "9803003000"}
+{"import_importtariff_&_tax_item": "MFN Interim Import Duty", "import_rate": "", "import_applicable_country": "Annul Interim Duty for MFN", "hs10digit": "9803003000"}
+{"import_importtariff_&_tax_item": "FTA Conventional Duty", "import_rate": "00%~0.0%", "import_applicable_country": "FTA Conventional Duty Search", "hs10digit": "9803003000"}
+{"import_importtariff_&_tax_item": "LDCs Preferential Duty", "import_rate": "0.0%", "import_applicable_country": "Low Developed Country", "hs10digit": "9803003000"}
+{"import_importtariff_&_tax_item": "Import Consumption Tax", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9803003000"}
+{"import_importtariff_&_tax_item": "Import VAT (Value-Added Tax)", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9803003000"}
+{"import_importtariff_&_tax_item": "China additional retaliatory tariff on USA", "import_rate": "0.0%", "import_applicable_country": "China retaliatory tariff against the United States enforced on Sep.  2018, because of the trade conflict with the Trump administration.", "import_note": "-", "hs10digit": "9803003000"}
+{"conventional_exporttariff_&_tax_item": "Export Duty", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803003000"}
+{"conventional_exporttariff_&_tax_item": "Interim Export Duty", "conventional_rate": "", "conventional_applicable_rate": "or.", "conventional_applicable_country": "China", "hs10digit": "9803003000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803003000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT Rebate", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803003000"}
+{"conventional_exporttariff_&_tax_item": "", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "", "hs10digit": "9803003000"}
+{"export_exporttariff_&_tax_item": "Export Duty", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803003000"}
+{"export_exporttariff_&_tax_item": "Interim Export Duty", "export_rate": "", "export_applicable_rate": "or.", "export_applicable_country": "China", "hs10digit": "9803003000"}
+{"export_exporttariff_&_tax_item": "Export VAT", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803003000"}
+{"export_exporttariff_&_tax_item": "Export VAT Rebate", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803003000"}
+{"export_exporttariff_&_tax_item": "", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "", "hs10digit": "9803003000"}
+{"import_importtariff_&_tax_item": "General Duty", "import_rate": "0.0%", "import_applicable_country": "Non-MFN", "import_note": "If export country is classified to multi-duty class, then the lowest import duty rate is Applicable.", "hs10digit": "9803009000"}
+{"import_importtariff_&_tax_item": "MFN Duty", "import_rate": "0.0%", "import_applicable_country": "Most-favored Nation", "hs10digit": "9803009000"}
+{"import_importtariff_&_tax_item": "MFN Interim Import Duty", "import_rate": "", "import_applicable_country": "Annul Interim Duty for MFN", "hs10digit": "9803009000"}
+{"import_importtariff_&_tax_item": "FTA Conventional Duty", "import_rate": "00%~0.0%", "import_applicable_country": "FTA Conventional Duty Search", "hs10digit": "9803009000"}
+{"import_importtariff_&_tax_item": "LDCs Preferential Duty", "import_rate": "0.0%", "import_applicable_country": "Low Developed Country", "hs10digit": "9803009000"}
+{"import_importtariff_&_tax_item": "Import Consumption Tax", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9803009000"}
+{"import_importtariff_&_tax_item": "Import VAT (Value-Added Tax)", "import_rate": "0.0%", "import_applicable_country": "All Countries", "import_note": "", "hs10digit": "9803009000"}
+{"import_importtariff_&_tax_item": "China additional retaliatory tariff on USA", "import_rate": "0.0%", "import_applicable_country": "China retaliatory tariff against the United States enforced on Sep.  2018, because of the trade conflict with the Trump administration.", "import_note": "-", "hs10digit": "9803009000"}
+{"conventional_exporttariff_&_tax_item": "Export Duty", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803009000"}
+{"conventional_exporttariff_&_tax_item": "Interim Export Duty", "conventional_rate": "", "conventional_applicable_rate": "or.", "conventional_applicable_country": "China", "hs10digit": "9803009000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803009000"}
+{"conventional_exporttariff_&_tax_item": "Export VAT Rebate", "conventional_rate": "0.0%", "conventional_applicable_rate": "", "conventional_applicable_country": "China", "hs10digit": "9803009000"}
+{"conventional_exporttariff_&_tax_item": "", "conventional_rate": "", "conventional_applicable_rate": "", "conventional_applicable_country": "", "hs10digit": "9803009000"}
+{"export_exporttariff_&_tax_item": "Export Duty", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803009000"}
+{"export_exporttariff_&_tax_item": "Interim Export Duty", "export_rate": "", "export_applicable_rate": "or.", "export_applicable_country": "China", "hs10digit": "9803009000"}
+{"export_exporttariff_&_tax_item": "Export VAT", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803009000"}
+{"export_exporttariff_&_tax_item": "Export VAT Rebate", "export_rate": "0.0%", "export_applicable_rate": "", "export_applicable_country": "China", "hs10digit": "9803009000"}
+{"export_exporttariff_&_tax_item": "", "export_rate": "", "export_applicable_rate": "", "export_applicable_country": "", "hs10digit": "9803009000"}
