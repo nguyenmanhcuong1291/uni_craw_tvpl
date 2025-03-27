@@ -1,0 +1,242 @@
+,type,sequenceNumber,description,actionDescription,certificateType,certificateNumber,certificateDescription,conditionExpression,tariffFormula,measure_id
+0,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,3
+1,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,3
+2,Y,3,Other conditions,Import/export not allowed after control,,,,,,3
+3,B,1,Presentation of a certificate/licence/document,Apply the amount of the action (see components),Y,155,Products exported directly or indirectly from the Russian Federation or Belarus,,50.00%,9
+4,B,2,Presentation of a certificate/licence/document,Apply the amount of the action (see components),,,,,0%,9
+5,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,11
+6,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,11
+7,Y,3,Other conditions,Import/export not allowed after control,,,,,,11
+8,B,1,Presentation of a certificate/licence/document,Apply the amount of the action (see components),Y,155,Products exported directly or indirectly from the Russian Federation or Belarus,,50.00%,21
+9,B,2,Presentation of a certificate/licence/document,Apply the amount of the action (see components),,,,,0%,21
+10,B,1,Presentation of a certificate/licence/document,Apply the amount of the action (see components),Y,155,Products exported directly or indirectly from the Russian Federation or Belarus,,50.00%,22
+11,B,2,Presentation of a certificate/licence/document,Apply the amount of the action (see components),,,,,0%,22
+12,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,44
+13,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,44
+14,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,51
+15,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,51
+16,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,52
+17,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,52
+18,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,61
+19,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,61
+20,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,64
+21,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,64
+22,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,67
+23,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,67
+24,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,69
+25,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,69
+26,Y,3,Other conditions,Import/export not allowed after control,,,,,,69
+27,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,71
+28,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,71
+29,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,73
+30,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,73
+31,Y,3,Other conditions,Import/export not allowed after control,,,,,,73
+32,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,77
+33,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,77
+34,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,80
+35,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,80
+36,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,82
+37,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,82
+38,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,84
+39,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,84
+40,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,85
+41,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,85
+42,Y,3,Other conditions,Import/export not allowed after control,,,,,,85
+43,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,87
+44,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,87
+45,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,94
+46,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,94
+47,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,98
+48,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,98
+49,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,106
+50,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,106
+51,Y,3,Other conditions,Import/export not allowed after control,,,,,,106
+52,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,Y,043,"Reimportation of textile products following an outward processing operation, in accordance with Regulation (EC) No 32/2000 - ANNEX II",,,108
+53,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,108
+54,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,110
+55,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,110
+56,Y,3,Other conditions,Import/export not allowed after control,,,,,,110
+57,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,113
+58,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,113
+59,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,Y,043,"Reimportation of textile products following an outward processing operation, in accordance with Regulation (EC) No 32/2000 - ANNEX II",,,114
+60,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,114
+61,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,116
+62,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,116
+63,Y,3,Other conditions,Import/export not allowed after control,,,,,,116
+64,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,122
+65,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,122
+66,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,Y,043,"Reimportation of textile products following an outward processing operation, in accordance with Regulation (EC) No 32/2000 - ANNEX II",,,123
+67,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,123
+68,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,126
+69,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,126
+70,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,Y,043,"Reimportation of textile products following an outward processing operation, in accordance with Regulation (EC) No 32/2000 - ANNEX II",,,127
+71,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,127
+72,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,130
+73,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,130
+74,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,133
+75,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,133
+76,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,134
+77,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,134
+78,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,Y,043,"Reimportation of textile products following an outward processing operation, in accordance with Regulation (EC) No 32/2000 - ANNEX II",,,135
+79,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,135
+80,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,138
+81,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,138
+82,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,139
+83,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,139
+84,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,142
+85,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,142
+86,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,143
+87,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,143
+88,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,145
+89,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,145
+90,Y,3,Other conditions,Import/export not allowed after control,,,,,,145
+91,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,147
+92,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,147
+93,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,148
+94,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,148
+95,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,Y,043,"Reimportation of textile products following an outward processing operation, in accordance with Regulation (EC) No 32/2000 - ANNEX II",,,149
+96,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,149
+97,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,152
+98,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,152
+99,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,153
+100,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,153
+101,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,156
+102,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,156
+103,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,157
+104,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,157
+105,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,161
+106,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,161
+107,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,163
+108,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,163
+109,Y,3,Other conditions,Import/export not allowed after control,,,,,,163
+110,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,167
+111,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,167
+112,Y,3,Other conditions,Import/export not allowed after control,,,,,,167
+113,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,172
+114,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,172
+115,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,173
+116,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,173
+117,Y,3,Other conditions,Import/export not allowed after control,,,,,,173
+118,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,178
+119,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,178
+120,Y,3,Other conditions,Import/export not allowed after control,,,,,,178
+121,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,181
+122,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,181
+123,Y,3,Other conditions,Import/export not allowed after control,,,,,,181
+124,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,183
+125,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,183
+126,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,185
+127,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,185
+128,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,188
+129,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,188
+130,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,190
+131,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,190
+132,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,197
+133,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,197
+134,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,198
+135,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,198
+136,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,205
+137,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,205
+138,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,208
+139,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,208
+140,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,209
+141,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,209
+142,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,213
+143,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,213
+144,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,215
+145,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,215
+146,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,218
+147,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,218
+148,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,221
+149,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,221
+150,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,224
+151,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,224
+152,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,227
+153,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,227
+154,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,228
+155,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,228
+156,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,243
+157,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,243
+158,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,N,990,"EUS - Authorisation for the use of end use procedure (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,245
+159,B,2,Presentation of a certificate/licence/document,Declared subheading not allowed,,,,,,245
+160,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,248
+161,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,248
+162,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,250
+163,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,250
+164,Y,3,Other conditions,Import/export not allowed after control,,,,,,250
+165,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,259
+166,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,259
+167,Y,3,Other conditions,Import/export not allowed after control,,,,,,259
+168,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,263
+169,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,263
+170,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,265
+171,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,265
+172,Y,3,Other conditions,Import/export not allowed after control,,,,,,265
+173,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,269
+174,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,269
+175,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,271
+176,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,271
+177,Y,3,Other conditions,Import/export not allowed after control,,,,,,271
+178,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,990,"End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",,,273
+179,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,273
+180,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,119,"Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",,,274
+181,C,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,274
+182,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,282
+183,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,282
+184,Y,3,Other conditions,Import/export not allowed after control,,,,,,282
+185,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,074,"Zootechnical certificate (Regulation (EU) 2016/1012, Article 37)",,,286
+186,B,2,Presentation of a certificate/licence/document,Declared subheading not allowed,,,,,,286
+187,C,1,Presentation of a certificate/licence/document,Apply the mentioned duty,C,075,"Document indicating that purebred breeding animals are to be entered in a breeding book maintained by a breed society or registered in a breeding register maintained by a breeding operation (Regulation (EU) 2016/1012, Article 37)",,,286
+188,C,2,Presentation of a certificate/licence/document,Declared subheading not allowed,,,,,,286
+189,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,289
+190,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,289
+191,Y,3,Other conditions,Import/export not allowed after control,,,,,,289
+192,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,293
+193,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,293
+194,Y,3,Other conditions,Import/export not allowed after control,,,,,,293
+195,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,300
+196,Y,2,Other conditions,Import/export not allowed after control,,,,,,300
+197,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,303
+198,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,303
+199,Y,3,Other conditions,Import/export not allowed after control,,,,,,303
+200,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,306
+201,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,306
+202,Y,3,Other conditions,Import/export not allowed after control,,,,,,306
+203,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,310
+204,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,310
+205,Y,3,Other conditions,Import/export not allowed after control,,,,,,310
+206,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,320
+207,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,320
+208,Y,3,Other conditions,Import/export not allowed after control,,,,,,320
+209,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,324
+210,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,324
+211,Y,3,Other conditions,Import/export not allowed after control,,,,,,324
+212,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,326
+213,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,326
+214,Y,3,Other conditions,Import/export not allowed after control,,,,,,326
+215,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,328
+216,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,328
+217,Y,3,Other conditions,Import/export not allowed after control,,,,,,328
+218,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,330
+219,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,330
+220,Y,3,Other conditions,Import/export not allowed after control,,,,,,330
+221,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,332
+222,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,332
+223,Y,3,Other conditions,Import/export not allowed after control,,,,,,332
+224,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,334
+225,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,334
+226,Y,3,Other conditions,Import/export not allowed after control,,,,,,334
+227,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,336
+228,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,336
+229,Y,3,Other conditions,Import/export not allowed after control,,,,,,336
+230,Y,1,Other conditions,Import/export allowed after control,C,400,"Presentation of the required ""CITES"" certificate",,,342
+231,Y,2,Other conditions,Import/export allowed after control,Y,900,Declared goods do not belong to the Washington Convention (CITES),,,342
+232,Y,3,Other conditions,Import/export not allowed after control,,,,,,342
+233,B,1,Presentation of a certificate/licence/document,Apply the mentioned duty,L,001,Import licence AGRIM,,,346
+234,B,2,Presentation of a certificate/licence/document,Measure not applicable,,,,,,346
+235,Q,1,Presentation of an endorsed certificate/licence,Apply the mentioned duty,Y,100,Special entries on the import licence AGRIM,,,346
+236,Q,2,Presentation of an endorsed certificate/licence,Measure not applicable,,,,,,346
+237,C,1,Presentation of a certificate/licence/document,Entry into free circulation allowed,U,004,Certificate of origin for imports of products subject to special non-preferential import arrangements into the European Union established in accordance with Article 57 of Commission Implementing Regulation (EU) 2015/2447,,,348
+238,C,2,Presentation of a certificate/licence/document,The entry into free circulation is not allowed,,,,,,348
+239,B,1,Presentation of a certificate/licence/document,Apply the amount of the action (see components),Y,155,Products exported directly or indirectly from the Russian Federation or Belarus,,50.00%,371
+240,B,2,Presentation of a certificate/licence/document,Apply the amount of the action (see components),,,,,0%,371

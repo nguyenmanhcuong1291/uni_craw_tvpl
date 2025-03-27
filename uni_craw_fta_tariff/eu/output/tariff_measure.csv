@@ -1,0 +1,402 @@
+,id,description,origin,type,measureType,geographicalArea,geographicalSigl,regulationRoleType,regulationId,regulationOrderNumber,startDate,endDate,additionalCodeId,additionalCodeText,exclusions,tariffFormula,hs_info_code,country
+0,1,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,01/01/2005,None,None,None,None,0%,0501,AT
+1,2,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,0510,AT
+2,3,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,0510,AT
+3,4,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,1.60%,0814,AT
+4,5,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,0814,AT
+5,6,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,0903,AT
+6,7,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,512.00 EUR / 1000 kg,1109,AT
+7,8,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007535,None,01/01/2025,None,None,None,None,0%,1109,AT
+8,9,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2416520,None,01/07/2024,01/01/3000,None,None,"Belarus, Russian Federation",None,1203,AT
+9,10,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,0%,1506,AT
+10,11,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,1506,AT
+11,12,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,0%,1520,AT
+12,13,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,0%,1801,AT
+13,14,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,0%,1802,AT
+14,15,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,7.70%,1804,AT
+15,16,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007537,None,01/01/2025,31/12/2025,None,None,None,1.90%,1804,AT
+16,17,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,8.00%,1805,AT
+17,18,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007537,None,01/01/2025,31/12/2025,None,None,None,2.00%,1805,AT
+18,19,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,6.40% + 15.10 EUR / 100 kg,1903,AT
+19,20,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007535,None,01/01/2025,None,None,None,None,0%,1903,AT
+20,21,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2416520,None,01/07/2024,01/01/3000,None,None,"Belarus, Russian Federation",None,2304,AT
+21,22,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2416520,None,01/07/2024,01/01/3000,None,None,"Belarus, Russian Federation",None,2305,AT
+22,23,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2502,AT
+23,24,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2509,AT
+24,25,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,01/01/1988,None,None,None,None,0%,2512,AT
+25,26,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2514,AT
+26,27,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2521,AT
+27,28,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2528,AT
+28,29,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2602,AT
+29,30,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2603,AT
+30,31,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2604,AT
+31,32,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2605,AT
+32,33,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2606,AT
+33,34,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2607,AT
+34,35,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2608,AT
+35,36,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2609,AT
+36,37,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2610,AT
+37,38,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2611,AT
+38,39,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2614,AT
+39,40,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2618,AT
+40,41,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2703,AT
+41,42,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2705,AT
+42,43,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,1000 m³,2705,AT
+43,44,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,2705,AT
+44,45,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2706,AT
+45,46,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,2715,AT
+46,47,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,2716,AT
+47,48,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,1000 kWh,2716,AT
+48,49,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,3101,AT
+49,50,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9431150,None,01/01/1995,01/01/3000,None,None,None,6.50%,3211,AT
+50,51,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,3211,AT
+51,52,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,3211,AT
+52,53,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,3211,AT
+53,54,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/2005,01/01/3000,None,None,None,0%,3406,AT
+54,55,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,3407,AT
+55,56,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,6.50%,3605,AT
+56,57,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,3605,AT
+57,58,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9530090,None,01/01/1996,01/01/3000,None,None,None,5.00%,3821,AT
+58,59,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,3821,AT
+59,60,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R8928860,None,01/01/1990,01/01/3000,None,None,None,0%,4003,AT
+60,61,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4003,AT
+61,62,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,4004,AT
+62,63,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,4017,AT
+63,64,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4017,AT
+64,65,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0120310,None,01/01/2005,01/01/3000,None,None,None,3.50%,4112,AT
+65,66,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,4,R0120311,None,01/01/2008,01/01/3000,None,None,None,m²,4112,AT
+66,67,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4112,AT
+67,68,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,4112,AT
+68,69,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,4112,AT
+69,70,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/2005,01/01/3000,None,None,None,1.70%,4206,AT
+70,71,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4206,AT
+71,72,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,4206,AT
+72,73,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,4206,AT
+73,74,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,3.20%,4304,AT
+74,75,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,4304,AT
+75,76,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,4405,AT
+76,77,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4405,AT
+77,78,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,4413,AT
+78,79,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,m³,4413,AT
+79,80,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4413,AT
+80,81,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,4416,AT
+81,82,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4416,AT
+82,83,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/2005,01/01/3000,None,None,None,0%,4417,AT
+83,84,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4417,AT
+84,85,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,4417,AT
+85,86,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,4502,AT
+86,87,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4502,AT
+87,88,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,4702,AT
+88,89,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,kg 90 % sdt,4702,AT
+89,90,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,4705,AT
+90,91,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,kg 90 % sdt,4705,AT
+91,92,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2005,01/01/3000,None,None,None,0%,4801,AT
+92,93,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2005,01/01/3000,None,None,None,0%,4812,AT
+93,94,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4812,AT
+94,95,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2005,01/01/3000,None,None,None,0%,4903,AT
+95,96,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2005,01/01/3000,None,None,None,0%,4904,AT
+96,97,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2005,01/01/3000,None,None,None,0%,4906,AT
+97,98,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,4906,AT
+98,99,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2005,01/01/3000,None,None,None,0%,4909,AT
+99,100,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2005,01/01/3000,None,None,None,0%,4910,AT
+100,101,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,0%,5001,AT
+101,102,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5001,AT
+102,103,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,0%,5002,AT
+103,104,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5002,AT
+104,105,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,5104,AT
+105,106,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,5104,AT
+106,107,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,3.50%,5110,AT
+107,108,None,ERGA OMNES,Non preferential tariff quota,122,1011,TOUT,1,R0000322,092501,01/09/2024,31/08/2025,None,None,None,0%,5110,AT
+108,109,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5110,AT
+109,110,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,5110,AT
+110,111,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,5.30%,5113,AT
+111,112,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,m²,5113,AT
+112,113,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,5113,AT
+113,114,None,ERGA OMNES,Non preferential tariff quota,122,1011,TOUT,1,R0000322,092501,01/09/2024,31/08/2025,None,None,None,0%,5113,AT
+114,115,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5113,AT
+115,116,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,5113,AT
+116,117,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,0%,5203,AT
+117,118,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5203,AT
+118,119,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9720860,None,01/01/1998,01/01/3000,None,None,None,0%,5305,AT
+119,120,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5305,AT
+120,121,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,3.80%,5405,AT
+121,122,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5405,AT
+122,123,None,ERGA OMNES,Non preferential tariff quota,122,1011,TOUT,1,R0000322,092501,01/09/2024,31/08/2025,None,None,None,0%,5405,AT
+123,124,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5405,AT
+124,125,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9617340,None,01/01/2007,01/01/3000,None,None,None,5.00%,5406,AT
+125,126,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5406,AT
+126,127,None,ERGA OMNES,Non preferential tariff quota,122,1011,TOUT,1,R0000322,092501,01/09/2024,31/08/2025,None,None,None,0%,5406,AT
+127,128,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5406,AT
+128,129,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2004,01/01/3000,None,None,None,4.00%,5507,AT
+129,130,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5507,AT
+130,131,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5507,AT
+131,132,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9617340,None,01/01/1997,01/01/3000,None,None,None,4.00%,5605,AT
+132,133,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,5605,AT
+133,134,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5605,AT
+134,135,None,ERGA OMNES,Non preferential tariff quota,122,1011,TOUT,1,R0000322,092501,01/09/2024,31/08/2025,None,None,None,0%,5605,AT
+135,136,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5605,AT
+136,137,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,5.80%,5609,AT
+137,138,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,5609,AT
+138,139,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5609,AT
+139,140,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5609,AT
+140,141,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,5.60%,5805,AT
+141,142,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,5805,AT
+142,143,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5805,AT
+143,144,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5805,AT
+144,145,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,5805,AT
+145,146,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,5.60%,5809,AT
+146,147,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,5809,AT
+147,148,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5809,AT
+148,149,None,ERGA OMNES,Non preferential tariff quota,122,1011,TOUT,1,R0000322,092501,01/09/2024,31/08/2025,None,None,None,0%,5809,AT
+149,150,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5809,AT
+150,151,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,5.60%,5908,AT
+151,152,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,5908,AT
+152,153,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5908,AT
+153,154,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5908,AT
+154,155,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,5.10%,5910,AT
+155,156,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,5910,AT
+156,157,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,5910,AT
+157,158,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,5910,AT
+158,159,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,7.60%,6216,AT
+159,160,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,4,R0317891,None,01/01/2008,01/01/3000,None,None,None,pa,6216,AT
+160,161,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,6216,AT
+161,162,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,6216,AT
+162,163,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,6216,AT
+163,164,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,6501,AT
+164,165,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,p/st,6501,AT
+165,166,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,6501,AT
+166,167,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,6501,AT
+167,168,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,6502,AT
+168,169,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,p/st,6502,AT
+169,170,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,6504,AT
+170,171,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,p/st,6504,AT
+171,172,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,6504,AT
+172,173,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,6504,AT
+173,174,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,6507,AT
+174,175,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,6507,AT
+175,176,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,6701,AT
+176,177,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,6701,AT
+177,178,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,6701,AT
+178,179,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,6703,AT
+179,180,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,6703,AT
+180,181,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,6703,AT
+181,182,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,6801,AT
+182,183,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,6801,AT
+183,184,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,6808,AT
+184,185,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,6808,AT
+185,186,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,6808,AT
+186,187,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0317890,None,01/01/2004,01/01/3000,None,None,None,0%,7313,AT
+187,188,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,7313,AT
+188,189,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/2005,01/01/3000,None,None,None,2.70%,7316,AT
+189,190,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,7316,AT
+190,191,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,7316,AT
+191,192,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/2005,01/01/3000,None,None,None,0%,7401,AT
+192,193,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,7402,AT
+193,194,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,01/01/2005,None,None,None,None,0%,7405,AT
+194,195,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9431150,None,01/01/1995,01/01/3000,None,None,None,0%,7504,AT
+195,196,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,6.00%,7611,AT
+196,197,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,7611,AT
+197,198,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,7611,AT
+198,199,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007533,None,01/01/2023,None,None,None,None,0%,7611,AT
+199,200,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,7802,AT
+200,201,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,7802,AT
+201,202,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,7902,AT
+202,203,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,7902,AT
+203,204,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,5.00%,7904,AT
+204,205,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,7904,AT
+205,206,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,7904,AT
+206,207,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,5.00%,7905,AT
+207,208,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,7905,AT
+208,209,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,7905,AT
+209,210,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,7905,AT
+210,211,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,8002,AT
+211,212,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,0%,8003,AT
+212,213,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,8003,AT
+213,214,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,3.70%,8206,AT
+214,215,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,8206,AT
+215,216,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8206,AT
+216,217,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/2005,01/01/3000,None,None,None,2.70%,8210,AT
+217,218,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,8210,AT
+218,219,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8210,AT
+219,220,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,4.20%,8213,AT
+220,221,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,8213,AT
+221,222,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8213,AT
+222,223,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,8304,AT
+223,224,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,8304,AT
+224,225,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8304,AT
+225,226,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,8310,AT
+226,227,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,8310,AT
+227,228,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,8310,AT
+228,229,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8310,AT
+229,230,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,8449,AT
+230,231,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8449,AT
+231,232,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,8604,AT
+232,233,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,p/st,8604,AT
+233,234,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8604,AT
+234,235,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,8605,AT
+235,236,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,p/st,8605,AT
+236,237,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8605,AT
+237,238,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,8608,AT
+238,239,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8608,AT
+239,240,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,8710,AT
+240,241,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8710,AT
+241,242,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,8804,AT
+242,243,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,8804,AT
+243,244,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8804,AT
+244,245,None,ERGA OMNES,Non preferential duty under end-use,105,1011,TOUT,4,R0615490,None,01/01/2007,01/01/3000,None,None,None,0%,8908,AT
+245,246,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,8908,AT
+246,247,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,3.20%,9206,AT
+247,248,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,9206,AT
+248,249,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9206,AT
+249,250,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,9206,AT
+250,251,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,9302,AT
+251,252,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,4,R0317891,None,01/01/2008,01/01/3000,None,None,None,p/st,9302,AT
+252,253,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9302,AT
+253,254,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,3.20%,9304,AT
+254,255,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,4,R1517541,None,01/01/2016,01/01/3000,None,None,None,p/st,9304,AT
+255,256,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007533,None,01/01/2023,None,None,None,None,0%,9304,AT
+256,257,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,9307,AT
+257,258,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9307,AT
+258,259,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,9307,AT
+259,260,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,3.70%,9604,AT
+260,261,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9604,AT
+261,262,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,3.70%,9605,AT
+262,263,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,9605,AT
+263,264,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9605,AT
+264,265,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,9605,AT
+265,266,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,9610,AT
+266,267,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9610,AT
+267,268,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,2.70%,9611,AT
+268,269,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,9611,AT
+269,270,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9611,AT
+270,271,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,9611,AT
+271,272,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,6.70%,9617,AT
+272,273,None,ERGA OMNES,"Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",117,1011,TOUT,1,R8726583,None,01/07/2016,None,None,None,None,0%,9617,AT
+273,274,None,ERGA OMNES,Airworthiness tariff suspension,119,1011,TOUT,1,R1815170,None,01/11/2018,None,None,None,None,0%,9617,AT
+274,275,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9617,AT
+275,276,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9822610,None,01/01/1999,01/01/3000,None,None,None,1.70%,9618,AT
+276,277,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,9618,AT
+277,278,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,01/01/1998,None,None,None,None,0%,9704,AT
+278,279,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1110060,None,01/01/2012,01/01/3000,None,None,None,7.70%,010130,AT
+279,280,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,p/st,010130,AT
+280,281,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,010130,AT
+281,282,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,010130,AT
+282,283,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1110060,None,01/01/2012,01/01/3000,None,None,None,10.90%,010190,AT
+283,284,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,p/st,010190,AT
+284,285,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,010190,AT
+285,286,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1719250,None,01/11/2018,01/01/3000,None,None,None,0%,010310,AT
+286,287,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,1,R8726581,None,01/01/2008,None,None,None,None,p/st,010310,AT
+287,288,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,010310,AT
+288,289,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,010310,AT
+289,290,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0120310,None,01/01/2005,01/01/3000,None,None,None,0%,010620,AT
+290,291,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,4,R0120311,None,01/01/2008,01/01/3000,None,None,None,p/st,010620,AT
+291,292,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,010620,AT
+292,293,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,010620,AT
+293,294,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,5.10%,02050020,AT
+294,295,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,02050020,AT
+295,296,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,5.10%,02050080,AT
+296,297,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,02050080,AT
+297,298,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0120310,None,01/01/2005,01/01/3000,None,None,None,9.00%,020830,AT
+298,299,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,020830,AT
+299,300,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,020830,AT
+300,301,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0120310,None,01/01/2005,01/01/3000,None,None,None,9.00%,020850,AT
+301,302,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,020850,AT
+302,303,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,020850,AT
+303,304,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1110060,None,01/01/2012,01/01/3000,None,None,None,9.00%,020860,AT
+304,305,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,020860,AT
+305,306,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,020860,AT
+306,307,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1110060,None,01/01/2012,01/01/3000,None,None,None,41.50 EUR / 100 kg,020990,AT
+307,308,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,020990,AT
+308,309,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1618210,None,01/01/2017,01/01/3000,None,None,None,0%,030760,AT
+309,310,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,030760,AT
+310,311,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1411010,None,01/01/2015,01/01/3000,None,None,None,188.20 EUR / 100 kg,040620,AT
+311,312,None,All third countries,Non preferential tariff quota,122,1008,ALLTC,1,R2019880,090152,01/07/2024,30/06/2025,None,None,United Kingdom,94.10 EUR / 100 kg,040620,AT
+312,313,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,040620,AT
+313,314,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,17.30%,0409000010,AT
+314,315,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,0409000010,AT
+315,316,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,17.30%,0409000090,AT
+316,317,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,0409000090,AT
+317,318,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2118320,None,01/01/2022,01/01/3000,None,None,None,7.70%,041090,AT
+318,319,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/01/2022,None,None,None,None,0%,041090,AT
+319,320,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,041090,AT
+320,321,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9431150,None,01/01/2005,01/01/3000,None,None,None,0%,050210,AT
+321,322,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9431150,None,01/01/2005,01/01/3000,None,None,None,0%,050290,AT
+322,323,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,01/01/2005,None,None,None,None,0%,0504000010,AT
+323,324,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,0504000010,AT
+324,325,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,01/01/2005,None,None,None,None,0%,0504000090,AT
+325,326,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,0504000090,AT
+326,327,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,0%,050590,AT
+327,328,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,050590,AT
+328,329,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,050610,AT
+329,330,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,05/12/2024,01/01/3000,None,None,None,None,050610,AT
+330,331,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,15/09/1994,None,None,None,None,0%,050690,AT
+331,332,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,05/12/2024,01/01/3000,None,None,None,None,050690,AT
+332,333,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9431150,None,01/01/2005,01/01/3000,None,None,None,0%,050710,AT
+333,334,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,050710,AT
+334,335,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9431150,None,01/01/2005,01/01/3000,None,None,None,0%,050790,AT
+335,336,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,050790,AT
+336,337,None,ERGA OMNES,Third country duty,103,1011,TOUT,1,R8726580,None,01/01/2005,None,None,None,None,0%,05080010,AT
+337,338,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9431150,None,01/01/2007,01/01/3000,None,None,None,0%,051110,AT
+338,339,None,ERGA OMNES,Supplementary unit,109,1011,TOUT,4,R0218321,None,01/01/2008,01/01/3000,None,None,None,p/st,051110,AT
+339,340,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,10.00%,060390,AT
+340,341,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,060390,AT
+341,342,None,ERGA OMNES,Import control - CITES,710,1011,TOUT,4,R2309660,None,20/05/2023,01/01/3000,None,None,None,None,060390,AT
+342,343,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,4.50%,070110,AT
+343,344,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,070110,AT
+344,345,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0120310,None,01/01/2002,01/01/3000,None,None,None,9.60% + 120.00 EUR / 100 kg,070320,AT
+345,346,None,All third countries,Non preferential tariff quota,122,1008,ALLTC,1,R2007610,094287,01/06/2021,None,None,None,"Argentina, China, United Kingdom",9.60%,070320,AT
+346,347,None,Viet Nam,Preferential tariff quota,143,VN,VN,1,R2010240,098201,01/01/2025,31/12/2025,None,None,None,0%,070320,AT
+347,348,None,Viet Nam,Restriction on entry into free circulation,465,VN,VN,1,R2007613,None,01/06/2021,None,None,None,None,None,070320,AT
+348,349,None,ERGA OMNES,Unit price,488,1011,TOUT,1,R1524471,None,14/03/2025,27/03/2025,None,None,None,160.85 EurUP / 100 kg,070320,AT
+349,350,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,10.40%,070390,AT
+350,351,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,070390,AT
+351,352,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,12.00%,070420,AT
+352,353,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,070420,AT
+353,354,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,12.80%,07070090,AT
+354,355,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,07070090,AT
+355,356,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2425220,None,01/01/2025,31/05/2025,None,None,None,8.00%,070810,AT
+356,357,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,070810,AT
+357,358,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,10.40%,070970,AT
+358,359,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,070970,AT
+359,360,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,14.40%,071010,AT
+360,361,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,071010,AT
+361,362,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,14.40%,071030,AT
+362,363,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,071030,AT
+363,364,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,14.40%,071090,AT
+364,365,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,071090,AT
+365,366,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,12.00%,071140,AT
+366,367,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,071140,AT
+367,368,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,12.80%,071220,AT
+368,369,None,All third countries,Non preferential tariff quota,122,1008,ALLTC,1,R2019880,090035,01/01/2025,31/12/2025,None,None,United Kingdom,10.00%,071220,AT
+369,370,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,071220,AT
+370,371,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2416520,None,01/07/2024,01/01/3000,None,None,"Belarus, Russian Federation",None,071320,AT
+371,372,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,0%,071340,AT
+372,373,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2012,01/01/3000,None,None,None,3.20%,071360,AT
+373,374,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,071360,AT
+374,375,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1110060,None,01/01/2012,01/01/3000,None,None,None,0%,080270,AT
+375,376,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,080270,AT
+376,377,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1110060,None,01/01/2012,01/01/3000,None,None,None,0%,080280,AT
+377,378,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,080280,AT
+378,379,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,0%,080720,AT
+379,380,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2012,01/01/3000,None,None,None,7.20%,080840,AT
+380,381,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,080840,AT
+381,382,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2425222,None,01/01/2025,31/05/2025,None,None,None,20.00%,080910,AT
+382,383,None,All third countries,Non preferential tariff quota,122,1008,ALLTC,1,R2019880,090058,01/08/2024,31/05/2025,None,None,United Kingdom,10.00%,080910,AT
+383,384,None,Viet Nam,Tariff preference,142,VN,VN,1,D200753E,None,01/01/2025,31/05/2025,None,None,None,0%,080910,AT
+384,385,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2425220,None,01/01/2025,30/04/2025,None,None,None,11.20%,081010,AT
+385,386,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,081010,AT
+386,387,None,ERGA OMNES,Unit price,488,1011,TOUT,1,R1524471,None,14/03/2025,27/03/2025,None,None,None,345.34 EurUP / 100 kg,081010,AT
+387,388,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R2425220,None,01/01/2025,14/05/2025,None,None,None,8.80%,081050,AT
+388,389,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,081050,AT
+389,390,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R0120310,None,01/01/2002,01/01/3000,None,None,None,8.80%,081060,AT
+390,391,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,081060,AT
+391,392,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R1110060,None,01/01/2012,01/01/3000,None,None,None,8.80%,081070,AT
+392,393,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,081070,AT
+393,394,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,8.80%,081210,AT
+394,395,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,081210,AT
+395,396,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/01/2005,01/01/3000,None,None,None,5.60%,081310,AT
+396,397,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,081310,AT
+397,398,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,9.60%,081320,AT
+398,399,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,081320,AT
+399,400,None,ERGA OMNES,Third country duty,103,1011,TOUT,4,R9922040,None,01/07/2000,01/01/3000,None,None,None,3.20%,081330,AT
+400,401,None,Viet Nam,Tariff preference,142,VN,VN,1,D2007530,None,01/08/2020,None,None,None,None,0%,081330,AT
